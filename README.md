@@ -1,4 +1,4 @@
-energy-efficient-steamboiiler
+energy-efficient-steamboiller
 =============================
 
 Прототип програми для Iot Gateway для моніторингу енергоефективності парового котла
