@@ -1,0 +1,6318 @@
+[
+    {
+        "id": "92533aa3038c1e4a",
+        "type": "tab",
+        "label": "Lab1",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "1b9c1dafa5e22344",
+        "type": "tab",
+        "label": "Lab2",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d4d8ee4fd8339b93",
+        "type": "tab",
+        "label": "Lab2.2",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "eeb71a8241dafe88",
+        "type": "tab",
+        "label": "Lab3",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "7e8c6afd411b87b7",
+        "type": "tab",
+        "label": "Lab3.2",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e06d740db386372e",
+        "type": "tab",
+        "label": "Lab4",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "8756f3d403a40b04",
+        "type": "tab",
+        "label": "Lab5",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d6bfac57e9ae0511",
+        "type": "tab",
+        "label": "Lab6",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "84509d07d435e576",
+        "type": "tab",
+        "label": "Lab7",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "76bcc671b3a34490",
+        "type": "tab",
+        "label": "Ubidots_Lab7",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "760f23939087cb96",
+        "type": "tab",
+        "label": "Lab8 OPC UA to influxdb",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "889b8d3d3f991896",
+        "type": "tab",
+        "label": "BrendStatistic",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "b07375343f850ae4",
+        "type": "tab",
+        "label": "BrandMBE",
+        "disabled": true,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "d8fa57a5ef9491a4",
+        "type": "tab",
+        "label": "Connector",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e0bf14c2f6cbbb41",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "9070157da237643d",
+        "type": "ui_tab",
+        "name": "Володько Станіслав",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "81c64499b62dcbc7",
+        "type": "ui_tab",
+        "name": "Володько Станіслав2",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "b0fe1aeee5fbf23d",
+        "type": "ui_group",
+        "name": "Закладка 2",
+        "tab": "81c64499b62dcbc7",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "ea499d3ceedbc31e",
+        "type": "ui_group",
+        "name": "Закладка 1",
+        "tab": "9070157da237643d",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bd54b47d44b42a5c",
+        "type": "mqtt-broker",
+        "name": "mosquitto",
+        "broker": "http://test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "80c28775dacd52dc",
+        "type": "websocket-listener",
+        "path": "/",
+        "wholemsg": "false"
+    },
+    {
+        "id": "f3a1a9fa2903623c",
+        "type": "gauth",
+        "name": "rpi-service-account@rpi3-385913.iam.gserviceaccount.com"
+    },
+    {
+        "id": "2d94b6f010474707",
+        "type": "Stackhero-InfluxDB-v2-Server",
+        "name": "",
+        "host": "eu-central-1-1.aws.cloud2.influxdata.com",
+        "port": "443",
+        "tls": true
+    },
+    {
+        "id": "1f4c855ec4b0bc57",
+        "type": "ui_tab",
+        "name": "BrandMBE",
+        "icon": "dashboard",
+        "order": 3,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "58c48080f93563cb",
+        "type": "ui_group",
+        "name": "Дата",
+        "tab": "1f4c855ec4b0bc57",
+        "order": 1,
+        "disp": true,
+        "width": 15,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "4a5e1c9a8f82532c",
+        "type": "ui_group",
+        "name": "Лояльність",
+        "tab": "1f4c855ec4b0bc57",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "a7487ec3dac9f9bb",
+        "type": "ui_group",
+        "name": "Якість",
+        "tab": "1f4c855ec4b0bc57",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3ba998ed2014a277",
+        "type": "ui_group",
+        "name": "",
+        "tab": "1f4c855ec4b0bc57",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "65c7fba358b16418",
+        "type": "ui_group",
+        "name": "",
+        "tab": "1f4c855ec4b0bc57",
+        "order": 6,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "3a278ce11f9dbe3e",
+        "type": "ui_group",
+        "name": "Графік",
+        "tab": "1f4c855ec4b0bc57",
+        "order": 2,
+        "disp": true,
+        "width": 15,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "bfe8a18b184b8951",
+        "type": "telegram bot",
+        "botname": "https://t.me/RPI4_Lab_bot",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "4def1c2a99ec00dd",
+        "type": "telegram bot",
+        "botname": "t.me/Lab4_Zimenko_bot",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "174cfcf56140dded",
+        "type": "telegram bot",
+        "botname": "https://t.me/speresenko_lab5_bot",
+        "usernames": "",
+        "chatids": "",
+        "baseapiurl": "",
+        "updatemode": "polling",
+        "pollinterval": "300",
+        "usesocks": false,
+        "sockshost": "",
+        "socksprotocol": "socks5",
+        "socksport": "6667",
+        "socksusername": "anonymous",
+        "sockspassword": "",
+        "bothost": "",
+        "botpath": "",
+        "localbotport": "8443",
+        "publicbotport": "8443",
+        "privatekey": "",
+        "certificate": "",
+        "useselfsignedcertificate": false,
+        "sslterminated": false,
+        "verboselogging": false
+    },
+    {
+        "id": "ceb5e8512ca93bef",
+        "type": "gauth",
+        "name": "rpi-service-account-69@rpi3-385913.iam.gserviceaccount.com"
+    },
+    {
+        "id": "fcb39804f01887c9",
+        "type": "s7 endpoint",
+        "transport": "iso-on-tcp",
+        "address": "127.0.0.1",
+        "port": "102",
+        "rack": "0",
+        "slot": "1",
+        "localtsaphi": "01",
+        "localtsaplo": "00",
+        "remotetsaphi": "01",
+        "remotetsaplo": "00",
+        "connmode": "rack-slot",
+        "adapter": "",
+        "busaddr": "2",
+        "cycletime": "60000",
+        "timeout": "2000",
+        "name": "",
+        "vartable": [
+            {
+                "addr": "DB2,R56",
+                "name": "InputFEGaz"
+            },
+            {
+                "addr": "DB2,R68",
+                "name": "InputFEWater"
+            },
+            {
+                "addr": "DB2,R4",
+                "name": "InputTESteam"
+            },
+            {
+                "addr": "DB2,R10",
+                "name": "InputTESmoke"
+            },
+            {
+                "addr": "DB2,R62",
+                "name": "InputFESteam"
+            }
+        ]
+    },
+    {
+        "id": "77f058b7f8dabfa6",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://DESKTOP-VERH6A8:48010",
+        "secpol": "None",
+        "secmode": "NONE",
+        "login": false
+    },
+    {
+        "id": "b1a17ac6171faba5",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://2017-PC:48010",
+        "secpol": "None",
+        "secmode": "NONE",
+        "login": false
+    },
+    {
+        "id": "2004fe318454697c",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://DESKTOP-RFV59RT:48010",
+        "secpol": "None",
+        "secmode": "None",
+        "login": false
+    },
+    {
+        "id": "1ba277000d88d77e",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://opcuaserver.com:48010",
+        "secpol": "None",
+        "secmode": "None",
+        "login": false
+    },
+    {
+        "id": "6b57973f.33e008",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://DESKTOP-IAH5H3K:48010",
+        "secpol": "None",
+        "secmode": "NONE",
+        "login": false
+    },
+    {
+        "id": "a0fd9d14bb4c69ce",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "127.0.0.1:48010",
+        "secpol": "None",
+        "secmode": "NONE",
+        "login": false
+    },
+    {
+        "id": "29b7977e73325c8e",
+        "type": "OpcUa-Endpoint",
+        "endpoint": "opc.tcp://DESKTOP-VEYH6T8:48010",
+        "secpol": "None",
+        "secmode": "NONE",
+        "login": false
+    },
+    {
+        "id": "cb22cac59ce2c2be",
+        "type": "redis-config",
+        "name": "Redis",
+        "options": "{\"test\":1}",
+        "cluster": false,
+        "optionsType": "json"
+    },
+    {
+        "id": "a0efbb89.5e42d8",
+        "type": "redis-config",
+        "name": "local",
+        "options": "{}",
+        "cluster": false,
+        "optionsType": "json"
+    },
+    {
+        "id": "58eb1167da00805f",
+        "type": "Stackhero-InfluxDB-v2-Server",
+        "name": "read",
+        "host": "eu-central-1-1.aws.cloud2.influxdata.com",
+        "port": "443",
+        "tls": true
+    },
+    {
+        "id": "48659a7502deef5d",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "database",
+        "name": "",
+        "usetls": false,
+        "tls": "",
+        "influxdbVersion": "2.0",
+        "url": "https://eu-central-1-1.aws.cloud2.influxdata.com/",
+        "rejectUnauthorized": true
+    },
+    {
+        "id": "2ff2a476.a6d2ec",
+        "type": "influxdb",
+        "hostname": "127.0.0.1",
+        "port": "8086",
+        "protocol": "http",
+        "database": "database",
+        "name": "test 1.8 flux",
+        "usetls": false,
+        "tls": "d50d0c9f.31e858",
+        "influxdbVersion": "1.8-flux",
+        "url": "https://localhost:8086",
+        "rejectUnauthorized": false
+    },
+    {
+        "id": "d50d0c9f.31e858",
+        "type": "tls-config",
+        "name": "",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "",
+        "keyname": "",
+        "caname": "",
+        "servername": "",
+        "verifyservercert": false
+    },
+    {
+        "id": "6ca8bde.9eb2f44",
+        "type": "influxdb",
+        "hostname": "localhost",
+        "port": "8086",
+        "protocol": "https",
+        "database": "new_db",
+        "name": "",
+        "usetls": true,
+        "tls": "f7f39f4e.896ae",
+        "influxdbVersion": "1.x"
+    },
+    {
+        "id": "f7f39f4e.896ae",
+        "type": "tls-config",
+        "name": "local-tls",
+        "cert": "",
+        "key": "",
+        "ca": "",
+        "certname": "",
+        "keyname": "",
+        "caname": "",
+        "verifyservercert": false
+    },
+    {
+        "id": "1b645d3a82da0d5f",
+        "type": "modbustcp-server",
+        "name": "PLCSIM",
+        "host": "127.0.0.1",
+        "port": "502",
+        "unit_id": "1",
+        "reconnecttimeout": "1000"
+    },
+    {
+        "id": "079ca4291efacc98",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "volodkoClient1",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": false,
+        "autoUnsubscribe": true,
+        "birthTopic": "volodko/client1/status",
+        "birthQos": "1",
+        "birthRetain": "true",
+        "birthPayload": "online",
+        "birthMsg": {},
+        "closeTopic": "volodko/client1/status",
+        "closeQos": "1",
+        "closeRetain": "true",
+        "closePayload": "offline",
+        "closeMsg": {},
+        "willTopic": "volodko/client1/status",
+        "willQos": "1",
+        "willRetain": "true",
+        "willPayload": "offline (break)",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "5a8244e6c7c10971",
+        "type": "Stackhero-InfluxDB-v2-Server",
+        "name": "",
+        "host": "us-east-1-1.aws.cloud2.influxdata.com",
+        "port": "443",
+        "tls": true
+    },
+    {
+        "id": "e71fb12fe992aecb",
+        "type": "inject",
+        "z": "92533aa3038c1e4a",
+        "name": "Start",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "topic 1",
+        "payload": "",
+        "payloadType": "date",
+        "x": 350,
+        "y": 220,
+        "wires": [
+            [
+                "304784c3f043dd35",
+                "835f32e2632cb646",
+                "aa6f79840f701024",
+                "af6f4f65364936ec",
+                "1a56e142fbf3bbc0",
+                "9f2f0fcb977525ea"
+            ]
+        ]
+    },
+    {
+        "id": "4ea14625517ab832",
+        "type": "debug",
+        "z": "92533aa3038c1e4a",
+        "name": "debug 1",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "835f32e2632cb646",
+        "type": "delay",
+        "z": "92533aa3038c1e4a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "1",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 540,
+        "y": 300,
+        "wires": [
+            [
+                "7283148a77ad13e0"
+            ]
+        ]
+    },
+    {
+        "id": "1a56e142fbf3bbc0",
+        "type": "delay",
+        "z": "92533aa3038c1e4a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "4",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 540,
+        "y": 420,
+        "wires": [
+            [
+                "536c39838c2073a8"
+            ]
+        ]
+    },
+    {
+        "id": "af6f4f65364936ec",
+        "type": "delay",
+        "z": "92533aa3038c1e4a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "3",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 540,
+        "y": 380,
+        "wires": [
+            [
+                "bd96a27f357dc6bf"
+            ]
+        ]
+    },
+    {
+        "id": "aa6f79840f701024",
+        "type": "delay",
+        "z": "92533aa3038c1e4a",
+        "name": "",
+        "pauseType": "delay",
+        "timeout": "2",
+        "timeoutUnits": "seconds",
+        "rate": "1",
+        "nbRateUnits": "1",
+        "rateUnits": "second",
+        "randomFirst": "1",
+        "randomLast": "5",
+        "randomUnits": "seconds",
+        "drop": false,
+        "allowrate": false,
+        "outputs": 1,
+        "x": 540,
+        "y": 340,
+        "wires": [
+            [
+                "3ec5a8615d440dcc"
+            ]
+        ]
+    },
+    {
+        "id": "304784c3f043dd35",
+        "type": "change",
+        "z": "92533aa3038c1e4a",
+        "name": "set1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Один",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 590,
+        "y": 220,
+        "wires": [
+            [
+                "4ea14625517ab832",
+                "d17670f401f5d1a7"
+            ]
+        ]
+    },
+    {
+        "id": "7283148a77ad13e0",
+        "type": "change",
+        "z": "92533aa3038c1e4a",
+        "name": "set2",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Два",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 300,
+        "wires": [
+            [
+                "4ea14625517ab832",
+                "d17670f401f5d1a7"
+            ]
+        ]
+    },
+    {
+        "id": "3ec5a8615d440dcc",
+        "type": "change",
+        "z": "92533aa3038c1e4a",
+        "name": "set3",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Три",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 340,
+        "wires": [
+            [
+                "4ea14625517ab832",
+                "d17670f401f5d1a7"
+            ]
+        ]
+    },
+    {
+        "id": "bd96a27f357dc6bf",
+        "type": "change",
+        "z": "92533aa3038c1e4a",
+        "name": "set4",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Чотири",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 380,
+        "wires": [
+            [
+                "4ea14625517ab832"
+            ]
+        ]
+    },
+    {
+        "id": "536c39838c2073a8",
+        "type": "change",
+        "z": "92533aa3038c1e4a",
+        "name": "set5",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "П'ять",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 420,
+        "wires": [
+            [
+                "4ea14625517ab832"
+            ]
+        ]
+    },
+    {
+        "id": "574b116b64d2ab06",
+        "type": "debug",
+        "z": "92533aa3038c1e4a",
+        "name": "debug 2",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "f6ca67de19d2f1ff",
+        "type": "ui_text",
+        "z": "92533aa3038c1e4a",
+        "group": "ea499d3ceedbc31e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Дата",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 730,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "d17670f401f5d1a7",
+        "type": "ui_text",
+        "z": "92533aa3038c1e4a",
+        "group": "ea499d3ceedbc31e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Число",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "className": "",
+        "x": 970,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "9f2f0fcb977525ea",
+        "type": "function",
+        "z": "92533aa3038c1e4a",
+        "name": "ДатаЧас",
+        "func": "var date1 = new Date(msg.payload);\nmsg.payload = 'Дата початку: '+date1.toLocaleString();\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 520,
+        "y": 480,
+        "wires": [
+            [
+                "574b116b64d2ab06",
+                "f6ca67de19d2f1ff"
+            ]
+        ]
+    },
+    {
+        "id": "3b3a8de291d7bf7c",
+        "type": "inject",
+        "z": "92533aa3038c1e4a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "Це текстове повідомлення",
+        "payloadType": "str",
+        "x": 410,
+        "y": 120,
+        "wires": [
+            [
+                "9b4924b2da28b709"
+            ]
+        ]
+    },
+    {
+        "id": "24ab7d21e0252574",
+        "type": "debug",
+        "z": "92533aa3038c1e4a",
+        "name": "debug 26",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "eb7fded7d192a4c8",
+        "type": "inject",
+        "z": "92533aa3038c1e4a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 430,
+        "y": 80,
+        "wires": [
+            [
+                "24ab7d21e0252574"
+            ]
+        ]
+    },
+    {
+        "id": "9b4924b2da28b709",
+        "type": "debug",
+        "z": "92533aa3038c1e4a",
+        "name": "debug 50",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "80812c30ad0c7914",
+        "type": "ui_slider",
+        "z": "92533aa3038c1e4a",
+        "name": "",
+        "label": "Задана температура",
+        "tooltip": "",
+        "group": "ea499d3ceedbc31e",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 380,
+        "y": 600,
+        "wires": [
+            [
+                "c945f62d03364676",
+                "c1fe0ba6a64a472a",
+                "841dc89de4b5fd47",
+                "349450807a7a650e"
+            ]
+        ]
+    },
+    {
+        "id": "c945f62d03364676",
+        "type": "function",
+        "z": "92533aa3038c1e4a",
+        "name": "В текст",
+        "func": "msg.payload = msg.payload.toString();\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 640,
+        "wires": [
+            [
+                "6738d4ce3ae28a30"
+            ]
+        ]
+    },
+    {
+        "id": "c1fe0ba6a64a472a",
+        "type": "ui_gauge",
+        "z": "92533aa3038c1e4a",
+        "name": "",
+        "group": "ea499d3ceedbc31e",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Температура",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "80",
+        "seg2": "90",
+        "diff": false,
+        "className": "",
+        "x": 960,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "6738d4ce3ae28a30",
+        "type": "ui_audio",
+        "z": "92533aa3038c1e4a",
+        "name": "",
+        "group": "ea499d3ceedbc31e",
+        "voice": "Google русский",
+        "always": "",
+        "x": 920,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "841dc89de4b5fd47",
+        "type": "switch",
+        "z": "92533aa3038c1e4a",
+        "name": "",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "btwn",
+                "v": "0",
+                "vt": "num",
+                "v2": "50",
+                "v2t": "num"
+            },
+            {
+                "t": "gte",
+                "v": "51",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 630,
+        "y": 720,
+        "wires": [
+            [
+                "59f3c0ba4869d0ec"
+            ],
+            [
+                "a365b9da16b64cde"
+            ]
+        ]
+    },
+    {
+        "id": "59f3c0ba4869d0ec",
+        "type": "change",
+        "z": "92533aa3038c1e4a",
+        "name": "Norma",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Норма",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "color",
+                "pt": "msg",
+                "to": "GREEN",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 770,
+        "y": 700,
+        "wires": [
+            [
+                "41aa5597276473a1"
+            ]
+        ]
+    },
+    {
+        "id": "a365b9da16b64cde",
+        "type": "change",
+        "z": "92533aa3038c1e4a",
+        "name": "Alarm",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "Аварія",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "color",
+                "pt": "msg",
+                "to": "RED",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 770,
+        "y": 760,
+        "wires": [
+            [
+                "41aa5597276473a1"
+            ]
+        ]
+    },
+    {
+        "id": "41aa5597276473a1",
+        "type": "ui_button",
+        "z": "92533aa3038c1e4a",
+        "name": "",
+        "group": "ea499d3ceedbc31e",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "{{msg.payload}}",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "{{msg.color}}",
+        "className": "",
+        "icon": "",
+        "payload": "",
+        "payloadType": "str",
+        "topic": "topic",
+        "topicType": "msg",
+        "x": 950,
+        "y": 720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2cedf30af55805ea",
+        "type": "debug",
+        "z": "92533aa3038c1e4a",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 940,
+        "wires": []
+    },
+    {
+        "id": "b0e860432692fab4",
+        "type": "ui_gauge",
+        "z": "92533aa3038c1e4a",
+        "name": "",
+        "group": "b0fe1aeee5fbf23d",
+        "order": 3,
+        "width": "6",
+        "height": "5",
+        "gtype": "donut",
+        "title": "Температура",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 940,
+        "y": 980,
+        "wires": []
+    },
+    {
+        "id": "e1ef28d87c8b83cf",
+        "type": "ui_gauge",
+        "z": "92533aa3038c1e4a",
+        "name": "",
+        "group": "b0fe1aeee5fbf23d",
+        "order": 4,
+        "width": "6",
+        "height": "5",
+        "gtype": "wave",
+        "title": "Рівень",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 970,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "f838f9e65d39c1f3",
+        "type": "change",
+        "z": "92533aa3038c1e4a",
+        "name": "Визначити температуру",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload[0]",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 980,
+        "wires": [
+            [
+                "b0e860432692fab4"
+            ]
+        ]
+    },
+    {
+        "id": "cafe7ad885de890c",
+        "type": "change",
+        "z": "92533aa3038c1e4a",
+        "name": "Визначити рівень",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload[1]",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 1020,
+        "wires": [
+            [
+                "e1ef28d87c8b83cf"
+            ]
+        ]
+    },
+    {
+        "id": "29853289a3785672",
+        "type": "inject",
+        "z": "92533aa3038c1e4a",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 380,
+        "y": 1140,
+        "wires": [
+            [
+                "6aa45b0c4ce894f5"
+            ]
+        ]
+    },
+    {
+        "id": "6aa45b0c4ce894f5",
+        "type": "NetworkIntf",
+        "z": "92533aa3038c1e4a",
+        "name": "",
+        "x": 570,
+        "y": 1140,
+        "wires": [
+            [
+                "08eef8067e073b93"
+            ]
+        ]
+    },
+    {
+        "id": "2cd7fa0956eab912",
+        "type": "debug",
+        "z": "92533aa3038c1e4a",
+        "name": "debug 4",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 1140,
+        "wires": []
+    },
+    {
+        "id": "08eef8067e073b93",
+        "type": "function",
+        "z": "92533aa3038c1e4a",
+        "name": "MACs",
+        "func": "var obmsg = msg.payload.networkInterfaces;\nvar obInterface = {};\nvar MACs=[]\nvar i =0\nfor (var keyIf in obmsg) {\n    obInterface = obmsg [keyIf];\n    MACs[i++] = 'MAC'+i+' '+obInterface[0].mac;\n}\nmsg.payload = MACs;\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 730,
+        "y": 1140,
+        "wires": [
+            [
+                "2cd7fa0956eab912"
+            ]
+        ]
+    },
+    {
+        "id": "0db50dd30eb92743",
+        "type": "modbustcp-read",
+        "z": "92533aa3038c1e4a",
+        "name": "",
+        "topic": "",
+        "dataType": "HoldingRegister",
+        "adr": "0",
+        "quantity": "10",
+        "rate": "5",
+        "rateUnit": "s",
+        "server": "1b645d3a82da0d5f",
+        "ieeeType": "off",
+        "ieeeBE": true,
+        "x": 370,
+        "y": 1020,
+        "wires": [
+            [
+                "2cedf30af55805ea",
+                "f838f9e65d39c1f3",
+                "cafe7ad885de890c"
+            ]
+        ]
+    },
+    {
+        "id": "dd7183bcbb330a59",
+        "type": "modbustcp-write",
+        "z": "92533aa3038c1e4a",
+        "name": "",
+        "topic": "",
+        "dataType": "HoldingRegisters",
+        "adr": "10",
+        "server": "1b645d3a82da0d5f",
+        "x": 610,
+        "y": 820,
+        "wires": []
+    },
+    {
+        "id": "349450807a7a650e",
+        "type": "function",
+        "z": "92533aa3038c1e4a",
+        "name": "INT to ARINT",
+        "func": "msg.payload = [msg.payload];\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 720,
+        "wires": [
+            [
+                "dd7183bcbb330a59"
+            ]
+        ]
+    },
+    {
+        "id": "3e879c42ef7a694b",
+        "type": "mqtt in",
+        "z": "1b9c1dafa5e22344",
+        "name": "",
+        "topic": "NUFT TI4/Variant4/#",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "bd54b47d44b42a5c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1490,
+        "y": 100,
+        "wires": [
+            [
+                "07cb2eed31088807"
+            ]
+        ]
+    },
+    {
+        "id": "07cb2eed31088807",
+        "type": "debug",
+        "z": "1b9c1dafa5e22344",
+        "name": "debug 5",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1780,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "471f20db3439e974",
+        "type": "mqtt out",
+        "z": "1b9c1dafa5e22344",
+        "name": "",
+        "topic": "NUFT TI4/Variant4/TT101",
+        "qos": "1",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "bd54b47d44b42a5c",
+        "x": 1850,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "cbcab46d389aaa2d",
+        "type": "mqtt in",
+        "z": "1b9c1dafa5e22344",
+        "name": "",
+        "topic": "NUFT TI4/Variant4/Klapan",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "bd54b47d44b42a5c",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 1510,
+        "y": 160,
+        "wires": [
+            [
+                "f3e647ee50ee308b"
+            ]
+        ]
+    },
+    {
+        "id": "f3e647ee50ee308b",
+        "type": "ui_gauge",
+        "z": "1b9c1dafa5e22344",
+        "name": "",
+        "group": "ea499d3ceedbc31e",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Клапан",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 1800,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "784eb3e542ad47d9",
+        "type": "ui_slider",
+        "z": "1b9c1dafa5e22344",
+        "name": "",
+        "label": "Температура",
+        "tooltip": "",
+        "group": "ea499d3ceedbc31e",
+        "order": 6,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "outs": "end",
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "100",
+        "step": 1,
+        "className": "",
+        "x": 1580,
+        "y": 220,
+        "wires": [
+            [
+                "471f20db3439e974"
+            ]
+        ]
+    },
+    {
+        "id": "eddbe3b90221c17a",
+        "type": "inject",
+        "z": "1b9c1dafa5e22344",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 1490,
+        "y": 320,
+        "wires": [
+            [
+                "8fcc0b11bd805583"
+            ]
+        ]
+    },
+    {
+        "id": "8fcc0b11bd805583",
+        "type": "function",
+        "z": "1b9c1dafa5e22344",
+        "name": "sin",
+        "func": "var a;\na = msg.payload/10000;\nmsg.payload = (Math.sin (a) + 1.0)*25.0+25;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1710,
+        "y": 320,
+        "wires": [
+            [
+                "784eb3e542ad47d9"
+            ]
+        ]
+    },
+    {
+        "id": "cf0280044de8f808",
+        "type": "inject",
+        "z": "d4d8ee4fd8339b93",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 530,
+        "y": 180,
+        "wires": [
+            [
+                "a866638dd037974b"
+            ]
+        ]
+    },
+    {
+        "id": "a866638dd037974b",
+        "type": "function",
+        "z": "d4d8ee4fd8339b93",
+        "name": "function 10",
+        "func": "let rad = context.get (\"rad\") || 0;\nrad = (rad>6.28) ? 0 : rad + 0.1;\nmsg.payload = (Math.sin (rad)+1)/2*100; \ncontext.set (\"rad\", rad);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 690,
+        "y": 180,
+        "wires": [
+            [
+                "5c919015c22c7685"
+            ]
+        ]
+    },
+    {
+        "id": "5c919015c22c7685",
+        "type": "mqtt out",
+        "z": "d4d8ee4fd8339b93",
+        "name": "",
+        "topic": "volodko/device1/random",
+        "qos": "1",
+        "retain": "true",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "079ca4291efacc98",
+        "x": 930,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "f936c2326660f033",
+        "type": "mqtt in",
+        "z": "d4d8ee4fd8339b93",
+        "name": "",
+        "topic": "volodko/#",
+        "qos": "1",
+        "datatype": "auto-detect",
+        "broker": "079ca4291efacc98",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 560,
+        "y": 260,
+        "wires": [
+            [
+                "40ee18d7cc319f3e"
+            ]
+        ]
+    },
+    {
+        "id": "40ee18d7cc319f3e",
+        "type": "debug",
+        "z": "d4d8ee4fd8339b93",
+        "name": "debug 45",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 740,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "5bad4ac1b3d54115",
+        "type": "inject",
+        "z": "eeb71a8241dafe88",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 180,
+        "wires": [
+            [
+                "263691b688bdd497"
+            ]
+        ]
+    },
+    {
+        "id": "263691b688bdd497",
+        "type": "file in",
+        "z": "eeb71a8241dafe88",
+        "name": "Scan",
+        "filename": "C:\\Temp\\barcods\\штрих код.jpg",
+        "filenameType": "str",
+        "format": "",
+        "chunk": false,
+        "sendError": false,
+        "encoding": "none",
+        "allProps": false,
+        "x": 330,
+        "y": 180,
+        "wires": [
+            [
+                "d0f382da.60357",
+                "94b3ea0ab6254143"
+            ]
+        ]
+    },
+    {
+        "id": "6e8db474857db744",
+        "type": "debug",
+        "z": "eeb71a8241dafe88",
+        "name": "Msg",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 850,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "d0f382da.60357",
+        "type": "function",
+        "z": "eeb71a8241dafe88",
+        "name": "Формувати Запит",
+        "func": "//формування корисного навантаження для POST\n//складається зі статичного тексту з описом розділу\n//та змісту розділу, який є типом image/jpeg що береться з файлу\n//деталі - https://developer.mozilla.org/uk/docs/Web/HTTP/Basics_of_HTTP/MIME_types#multipartform-data \nvar tmp1;//верхня частина - початок розділу\nvar tmp2;//нижня частина - закінчення розділу\ntmp1 = '-----------------------------12818302946532\\r\\n';//межа початку розділу\ntmp1 += 'Content-Disposition: form-data; name=\"f\"; filename=\"1.jpg\"\\r\\n';//заголовок розділу\ntmp1 += 'Content-Type: image/jpeg\\r\\n\\r\\n';//заголовок розділу\ntmp2 = '\\r\\n-----------------------------12818302946532--';//межа кінця розділу\nvar buf1 = Buffer.from(tmp1);//перетворення тексту в бінарний буфер\nvar buf3 = Buffer.from(tmp2);//перетворення тексту в бінарний буфер\nvar ar =[buf1, msg.payload, buf3];//об'єднання буферів та вмісту файлу в один масив\nmsg.payload =  Buffer.concat(ar);//перетворення масиву в один буфер\n\n//формування заголовків запиту\nmsg.headers = {};//об'явили як об'єкт\nmsg.headers[\"host\"] = \"zxing.org\";\nmsg.headers[\"Accept-Encoding\"] = \"identity\";\nmsg.headers[\"accept\"] = \"text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\";\nmsg.headers[\"content-type\"]= \"multipart/form-data; boundary=---------------------------12818302946532\";\nvar len = msg.payload.length;//визначаємо довжину тіла запиту\nmsg.headers[\"content-length\"] = len.toString();//перетворюємо в текст \nmsg.headers[\"referer\"] = \"https://zxing.org/w/decode.jspx\";\nmsg.headers[\"connection\"] = \"keep-alive\";\nmsg.headers[\"upgrade-insecure-requests\"] = 1;\nreturn msg;//повідомлення для відправки методом POST",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 180,
+        "wires": [
+            [
+                "a2f4ac46cee3cf47",
+                "4db1b4b53983e0de"
+            ]
+        ]
+    },
+    {
+        "id": "a2f4ac46cee3cf47",
+        "type": "http request",
+        "z": "eeb71a8241dafe88",
+        "name": "",
+        "method": "POST",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "https://zxing.org/w/decode",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 190,
+        "y": 260,
+        "wires": [
+            [
+                "0e4af3e8f4d571d6",
+                "c7b0d76ad7414e3b"
+            ]
+        ]
+    },
+    {
+        "id": "0e4af3e8f4d571d6",
+        "type": "html",
+        "z": "eeb71a8241dafe88",
+        "name": "Вибірка",
+        "property": "payload",
+        "outproperty": "payload",
+        "tag": "#result pre",
+        "ret": "text",
+        "as": "single",
+        "x": 400,
+        "y": 260,
+        "wires": [
+            [
+                "e3e978e84056a0ed",
+                "49d74e87157f7cb2"
+            ]
+        ]
+    },
+    {
+        "id": "e3e978e84056a0ed",
+        "type": "function",
+        "z": "eeb71a8241dafe88",
+        "name": "function 1",
+        "func": "msg.ID=(msg.statusCode==200) ? msg.payload[2] : \"error\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 620,
+        "y": 260,
+        "wires": [
+            [
+                "6e8db474857db744"
+            ]
+        ]
+    },
+    {
+        "id": "94b3ea0ab6254143",
+        "type": "debug",
+        "z": "eeb71a8241dafe88",
+        "name": "debug 32",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 500,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "c7b0d76ad7414e3b",
+        "type": "debug",
+        "z": "eeb71a8241dafe88",
+        "name": "debug 34",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 380,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "49d74e87157f7cb2",
+        "type": "debug",
+        "z": "eeb71a8241dafe88",
+        "name": "debug 35",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 600,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "4db1b4b53983e0de",
+        "type": "debug",
+        "z": "eeb71a8241dafe88",
+        "name": "debug 33",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "dc570d24ba21e6bc",
+        "type": "inject",
+        "z": "eeb71a8241dafe88",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 340,
+        "y": 480,
+        "wires": [
+            [
+                "3f04fd9ff4d47081"
+            ]
+        ]
+    },
+    {
+        "id": "3f04fd9ff4d47081",
+        "type": "http request",
+        "z": "eeb71a8241dafe88",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "http://ip-api.com/json/",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 530,
+        "y": 480,
+        "wires": [
+            [
+                "0a1f99cf9deb456f"
+            ]
+        ]
+    },
+    {
+        "id": "0a1f99cf9deb456f",
+        "type": "debug",
+        "z": "eeb71a8241dafe88",
+        "name": "debug 41",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "b11441900e64bfc6",
+        "type": "inject",
+        "z": "7e8c6afd411b87b7",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 100,
+        "y": 120,
+        "wires": [
+            [
+                "f315bf6d0d3780ab"
+            ]
+        ]
+    },
+    {
+        "id": "f315bf6d0d3780ab",
+        "type": "http request",
+        "z": "7e8c6afd411b87b7",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "body",
+        "url": "http://api.weatherapi.com/v1/current.json?key=55e7c2e4a1fe4e65b88145232230305&q=Kiev&aqi=no",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 270,
+        "y": 120,
+        "wires": [
+            [
+                "b85a3ca42b1eeb02",
+                "8ddb72b2c931de36"
+            ]
+        ]
+    },
+    {
+        "id": "c611dc7aa7c779f4",
+        "type": "debug",
+        "z": "7e8c6afd411b87b7",
+        "name": "debug 6",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 900,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "cdac448273c0000b",
+        "type": "file",
+        "z": "7e8c6afd411b87b7",
+        "name": "output-to-excel",
+        "filename": "C:\\Users\\Pavel_PC\\Desktop\\Weather.csv",
+        "filenameType": "str",
+        "appendNewline": false,
+        "createDir": true,
+        "overwriteFile": "false",
+        "encoding": "utf8",
+        "x": 740,
+        "y": 120,
+        "wires": [
+            [
+                "c611dc7aa7c779f4"
+            ]
+        ]
+    },
+    {
+        "id": "b85a3ca42b1eeb02",
+        "type": "change",
+        "z": "7e8c6afd411b87b7",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "temp_c",
+                "pt": "msg",
+                "to": "payload.current.temp_c",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.location",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload.temp_c",
+                "pt": "msg",
+                "to": "temp_c",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 120,
+        "wires": [
+            [
+                "abfd84167c286eb3"
+            ]
+        ]
+    },
+    {
+        "id": "abfd84167c286eb3",
+        "type": "csv",
+        "z": "7e8c6afd411b87b7",
+        "name": "",
+        "sep": ";",
+        "hdrin": false,
+        "hdrout": "none",
+        "multi": "one",
+        "ret": "\\r\\n",
+        "temp": "localtime,name,region,country,temp_c",
+        "skip": "0",
+        "strings": true,
+        "include_empty_strings": false,
+        "include_null_values": false,
+        "x": 590,
+        "y": 120,
+        "wires": [
+            [
+                "cdac448273c0000b"
+            ]
+        ]
+    },
+    {
+        "id": "8ddb72b2c931de36",
+        "type": "debug",
+        "z": "7e8c6afd411b87b7",
+        "name": "debug 8",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 440,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "107879ac57a5f3b8",
+        "type": "inject",
+        "z": "e06d740db386372e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 250,
+        "y": 180,
+        "wires": [
+            [
+                "530f0e9ee8c941bb"
+            ]
+        ]
+    },
+    {
+        "id": "530f0e9ee8c941bb",
+        "type": "function",
+        "z": "e06d740db386372e",
+        "name": "Наповнення буферу",
+        "func": "let now = new Date();//сьогодні\n//trend - 2-мірний масив 3x60, на 60 останніх значень \n//читання з контексту потоку або ініціалізація масиву-буферу\nlet trend = flow.get(\"trend\") || [[now.toLocaleString()], [0], [0]];\nlet l = trend[0].length;    //довжина мавису\n//з кожним викликом збільшуємо градуси в радіанах\nlet rad = trend[1][l - 1] + Math.PI / 5;\nif (rad >= Math.PI * 2) rad = 0;//обнуляємо після повного кола\nlet val = Math.sin(rad);   //вираховуємо синус\n//на \"верх\" масиву добавляємо елементи \ntrend[0].push(now.toLocaleString());//дата час\ntrend[1].push(rad);    //радіани\ntrend[2].push(val);    //значення синусу\n//якщо масив заповнився до 60\nif (trend[0].length > 60) {\n    trend[0].shift();//вилучаємо перший (найстаріший) елемент\n    trend[1].shift();\n    trend[2].shift();\n    //після цього масиви повинні зменшитися на 1 елемент (60) \n    //і зсунутися вниз\n    //у випадку, якщо раптом елементів більше 60\n    //наприклад були добавлені випадково стороннім кодом\n    //зробити кількість елементів =60\n    trend[0].length = 60;//\n    trend[1].length = 60;\n    trend[2].length = 60;\n}\nflow.set(\"trend\", trend);//записати в контекст потоку\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 180,
+        "wires": [
+            [
+                "7d6785dbd4d887e9"
+            ]
+        ]
+    },
+    {
+        "id": "7d6785dbd4d887e9",
+        "type": "debug",
+        "z": "e06d740db386372e",
+        "name": "debug 9",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "e3bbe4b039c15d14",
+        "type": "inject",
+        "z": "e06d740db386372e",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "1",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "trend",
+        "payloadType": "flow",
+        "x": 250,
+        "y": 240,
+        "wires": [
+            [
+                "fec0bb859edacf6e"
+            ]
+        ]
+    },
+    {
+        "id": "fec0bb859edacf6e",
+        "type": "GSheet",
+        "z": "e06d740db386372e",
+        "creds": "f3a1a9fa2903623c",
+        "method": "update",
+        "action": "",
+        "sheet": "1hbmWMGCysipscO6mTOjAWi3zl1sbUluz_nzLagn6oA4",
+        "cells": "Лист1!A1:BH3",
+        "flatten": false,
+        "name": "",
+        "x": 450,
+        "y": 240,
+        "wires": [
+            [
+                "41ce03f4ad4b0e78"
+            ]
+        ]
+    },
+    {
+        "id": "41ce03f4ad4b0e78",
+        "type": "debug",
+        "z": "e06d740db386372e",
+        "name": "debug 12",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 660,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "87ec9a8ae80ba29b",
+        "type": "telegram sender",
+        "z": "8756f3d403a40b04",
+        "name": "",
+        "bot": "174cfcf56140dded",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7b0f2a2d332bbc6d",
+        "type": "telegram command",
+        "z": "8756f3d403a40b04",
+        "name": "",
+        "command": "/start",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "174cfcf56140dded",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 170,
+        "y": 140,
+        "wires": [
+            [
+                "26aed5151572803b"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "b92379eabfb10824",
+        "type": "function",
+        "z": "8756f3d403a40b04",
+        "name": "Comand",
+        "func": "let globalContext = global.get('globalContext') || {};\nlet txtmsg = \"/start - показати базові команди\\r\\n\";\ntxtmsg += \"/sp - виставлення уставок\\r\\n\";\ntxtmsg += \"/pv - отримання плинних значень\\r\\n\";\ntxtmsg += \"/alm - список активних тривог\\r\\n\";\nmsg.payload = {\n    chatId: globalContext.chatId,\n    type: 'message',\n    content: txtmsg\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 600,
+        "y": 180,
+        "wires": [
+            [
+                "736d3b11b4ea86ef",
+                "87ec9a8ae80ba29b"
+            ]
+        ]
+    },
+    {
+        "id": "c4c9252db8d4abdb",
+        "type": "function",
+        "z": "8756f3d403a40b04",
+        "name": "Наповнення буферу",
+        "func": "let now = new Date();//сьогодні\n//trend - 2-мірний масив 3x60, на 60 останніх значень \n//читання з контексту потоку або ініціалізація масиву-буферу\nlet trend = flow.get(\"trend\") || [[now.toLocaleString()], [0], [0]];\nlet l = trend[0].length;    //довжина мавису\n//з кожним викликом збільшуємо градуси в радіанах\nlet rad = trend[1][l - 1] + Math.PI / 5;\nif (rad >= Math.PI * 2) rad = 0;//обнуляємо після повного кола\nlet val = Math.sin(rad);   //вираховуємо синус\n//на \"верх\" масиву добавляємо елементи \ntrend[0].push(now.toLocaleString());//дата час\ntrend[1].push(rad);    //радіани\ntrend[2].push(val);    //значення синусу\n//якщо масив заповнився до 60\nif (trend[0].length > 60) {\n    trend[0].shift();//вилучаємо перший (найстаріший) елемент\n    trend[1].shift();\n    trend[2].shift();\n    //після цього масиви повинні зменшитися на 1 елемент (60) \n    //і зсунутися вниз\n    //у випадку, якщо раптом елементів більше 60\n    //наприклад були добавлені випадково стороннім кодом\n    //зробити кількість елементів =60\n    trend[0].length = 60;//\n    trend[1].length = 60;\n    trend[2].length = 60;\n}\nflow.set(\"trend\", trend);//записати в контекст потоку\nlet rtdb = { //глобальна змінна\n    trend: trend,\n    rad: rad,\n    val: val\n}\nglobal.set(\"rtdb\", rtdb);\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "df7edc845d8a408f",
+        "type": "inject",
+        "z": "8756f3d403a40b04",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 250,
+        "y": 320,
+        "wires": [
+            [
+                "c4c9252db8d4abdb",
+                "f2e54533370d440a"
+            ]
+        ]
+    },
+    {
+        "id": "f2e54533370d440a",
+        "type": "function",
+        "z": "8756f3d403a40b04",
+        "name": "Alarm",
+        "func": "let globalContext = global.get('globalContext') || {};\nlet rtdb = global.get(\"rtdb\") || {};\nlet alm = global.get(\"alm\") || { //система тривог \n    state: { radHI: false, valHI: false }, //стан тривог \n    sp: { radHI: 10.0, valHI: 2.0 }     //уставки тривог\n};\n\nlet almmsg = \"\";\n//умова тривоги активна?\nlet alm_radHI = rtdb.rad > alm.sp.radHI;\nlet alm_valHI = rtdb.val > alm.sp.valHI;\n//якщо тривога тільки активувалася\nif (alm_radHI && !alm.state.radHI) {\n    almmsg += \"Радіани дорвінюють \" + rtdb.rad + \" , що вище зданого значення \" + alm.sp.radHI + \"\\r\\n\";\n}\nif (alm_valHI && !alm.state.valHI) {\n    almmsg += \"Синус дорвінює \" + rtdb.val + \" , що вище зданого значення \" + alm.sp.valHI + \"\\r\\n\"\n}\n//запис у стан тривоги\nalm.state.radHI = alm_radHI;\nalm.state.valHI = alm_valHI;\n//збереження станів тривоги в глобальному контексті\nglobal.set(\"alm\", alm);\n//якщо хоча виникла хоча б одна тривога - відправка повідомлень \nif (almmsg.length > 1) {\n    msg.payload = {\n        chatId: globalContext.chatId,\n        type: 'message',\n        content: almmsg\n    }\n    return msg;\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 380,
+        "wires": [
+            [
+                "4e8e10bf88907fcd"
+            ]
+        ]
+    },
+    {
+        "id": "4e8e10bf88907fcd",
+        "type": "telegram sender",
+        "z": "8756f3d403a40b04",
+        "name": "",
+        "bot": "174cfcf56140dded",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 690,
+        "y": 380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8ded95e0368c046f",
+        "type": "inject",
+        "z": "8756f3d403a40b04",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 360,
+        "y": 440,
+        "wires": [
+            [
+                "46fe9450e08c3fe6"
+            ]
+        ]
+    },
+    {
+        "id": "46fe9450e08c3fe6",
+        "type": "change",
+        "z": "8756f3d403a40b04",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "alm.sp.radHI",
+                "pt": "global",
+                "to": "6.28",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 600,
+        "y": 440,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "736d3b11b4ea86ef",
+        "type": "debug",
+        "z": "8756f3d403a40b04",
+        "name": "debug 16",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "7635d2a08e0d8004",
+        "type": "telegram receiver",
+        "z": "8756f3d403a40b04",
+        "name": "",
+        "bot": "174cfcf56140dded",
+        "saveDataDir": "",
+        "filterCommands": false,
+        "x": 210,
+        "y": 40,
+        "wires": [
+            [],
+            []
+        ]
+    },
+    {
+        "id": "e8e5162373d0f930",
+        "type": "function",
+        "z": "8756f3d403a40b04",
+        "name": "Текстове повідомлення",
+        "func": "let globalContext = global.get('globalContext') || {};\nmsg.payload = {\n    chatId: globalContext.chatId,\n    type: 'message',\n    content: 'Привіт я RPI бот!'\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 550,
+        "y": 220,
+        "wires": [
+            [
+                "87ec9a8ae80ba29b"
+            ]
+        ]
+    },
+    {
+        "id": "26aed5151572803b",
+        "type": "function",
+        "z": "8756f3d403a40b04",
+        "name": "Запис ChatId",
+        "func": "const ChatID = msg.payload.chatId\nlet globalContext = global.get('globalContext') || {};\nglobalContext.chatId = ChatID\nglobal.set('globalContext', globalContext)\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 180,
+        "wires": [
+            [
+                "404bfccf87e816cb",
+                "b92379eabfb10824",
+                "e8e5162373d0f930"
+            ]
+        ]
+    },
+    {
+        "id": "404bfccf87e816cb",
+        "type": "debug",
+        "z": "8756f3d403a40b04",
+        "name": "debug 29",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "c94b72e556813bb9",
+        "type": "telegram command",
+        "z": "8756f3d403a40b04",
+        "name": "",
+        "command": "/sp",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "174cfcf56140dded",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 190,
+        "y": 520,
+        "wires": [
+            [
+                "bbcb984ba49790c2"
+            ],
+            [
+                "7834308d6e8088fe"
+            ]
+        ]
+    },
+    {
+        "id": "2ff4aa1727e872d1",
+        "type": "telegram command",
+        "z": "8756f3d403a40b04",
+        "name": "",
+        "command": "/rad",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "174cfcf56140dded",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 190,
+        "y": 600,
+        "wires": [
+            [
+                "4d9f0e7882bf11b1"
+            ],
+            [
+                "8275deaa5f59de6d"
+            ]
+        ]
+    },
+    {
+        "id": "3341eb64fa90286a",
+        "type": "telegram command",
+        "z": "8756f3d403a40b04",
+        "name": "",
+        "command": "/val",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "174cfcf56140dded",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 190,
+        "y": 680,
+        "wires": [
+            [
+                "a46fbe1b332bf038"
+            ],
+            [
+                "c1d1b266d0a2319a"
+            ]
+        ]
+    },
+    {
+        "id": "bbcb984ba49790c2",
+        "type": "function",
+        "z": "8756f3d403a40b04",
+        "name": "Генерування клавіатури",
+        "func": "context.global.keyboard = { pending: true };\nlet opts = {\n    reply_to_message_id: msg.payload.messageId,\n    reply_markup: JSON.stringify({\n        keyboard: [\n            ['/rad'],\n            ['/val'],\n            ['відміна']],\n        'resize_keyboard': true,\n        'one_time_keyboard': true\n    })\n};\nmsg.payload.content = 'Виберіть змінну';\nmsg.payload.options = opts;\nreturn [msg];",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 430,
+        "y": 500,
+        "wires": [
+            [
+                "815235dc85ca71e2"
+            ]
+        ]
+    },
+    {
+        "id": "7834308d6e8088fe",
+        "type": "change",
+        "z": "8756f3d403a40b04",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "global.keyboard.pending",
+                "pt": "global",
+                "to": "false",
+                "tot": "bool"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "815235dc85ca71e2",
+        "type": "telegram sender",
+        "z": "8756f3d403a40b04",
+        "name": "",
+        "bot": "174cfcf56140dded",
+        "haserroroutput": false,
+        "outputs": 1,
+        "x": 830,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4d9f0e7882bf11b1",
+        "type": "change",
+        "z": "8756f3d403a40b04",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.content",
+                "pt": "msg",
+                "to": "Введіть значення уставки 'rad'",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 580,
+        "wires": [
+            [
+                "815235dc85ca71e2"
+            ]
+        ]
+    },
+    {
+        "id": "8275deaa5f59de6d",
+        "type": "change",
+        "z": "8756f3d403a40b04",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "alm.sp.radHI",
+                "pt": "global",
+                "to": "payload.content",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a46fbe1b332bf038",
+        "type": "change",
+        "z": "8756f3d403a40b04",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.content",
+                "pt": "msg",
+                "to": "Введіть значення уставки 'val'",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 430,
+        "y": 660,
+        "wires": [
+            [
+                "815235dc85ca71e2"
+            ]
+        ]
+    },
+    {
+        "id": "c1d1b266d0a2319a",
+        "type": "change",
+        "z": "8756f3d403a40b04",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "alm.sp.valHI",
+                "pt": "global",
+                "to": "payload.content",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 420,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5b302853bc0b48dc",
+        "type": "telegram command",
+        "z": "8756f3d403a40b04",
+        "name": "",
+        "command": "/pv",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "174cfcf56140dded",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 190,
+        "y": 760,
+        "wires": [
+            [
+                "c83ba7a013bdd728"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "c83ba7a013bdd728",
+        "type": "change",
+        "z": "8756f3d403a40b04",
+        "name": "Set msg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "rad",
+                "pt": "msg",
+                "to": "rtdb.rad",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "val",
+                "pt": "msg",
+                "to": "rtdb.val",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 740,
+        "wires": [
+            [
+                "0109d403b2d7b6d3"
+            ]
+        ]
+    },
+    {
+        "id": "0109d403b2d7b6d3",
+        "type": "function",
+        "z": "8756f3d403a40b04",
+        "name": "pv",
+        "func": "let globalContext = global.get('globalContext') || {};\nmsg.payload = {\n    chatId: globalContext.chatId,\n    type: \"message\",\n    content: \"Плинне значення rad =\" + msg.rad + \"\\r\\n\" + \"Плинне значення val =\" + msg.val + \"\\r\\n\"\n};\n//\"rad=\\r\\n\"\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 740,
+        "wires": [
+            [
+                "815235dc85ca71e2",
+                "b237d905e0ae848a"
+            ]
+        ]
+    },
+    {
+        "id": "8b7313628101411f",
+        "type": "telegram command",
+        "z": "8756f3d403a40b04",
+        "name": "",
+        "command": "/alm",
+        "description": "",
+        "registercommand": false,
+        "language": "",
+        "scope": "default",
+        "bot": "174cfcf56140dded",
+        "strict": false,
+        "hasresponse": true,
+        "useregex": false,
+        "removeregexcommand": false,
+        "outputs": 2,
+        "x": 190,
+        "y": 840,
+        "wires": [
+            [
+                "c8cc68eec8f7c904"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "b887f02cbaaea4d2",
+        "type": "function",
+        "z": "8756f3d403a40b04",
+        "name": "alm",
+        "func": "let globalContext = global.get('globalContext') || {};\nlet almmsg = \"\";\n\nif (msg.almrad == false && msg.almval == false ) {\n    almmsg = \"Активних тривог немає.\\r\\n\";\n}\nelse if (msg.almrad == true) {\n    almmsg = \"Тривога Rad.\\r\\n\";\n\n}\nelse if (msg.almval == true) {\n    almmsg = \"Тривога Vad.\\r\\n\";\n}\nmsg.payload = {\n    chatId: globalContext.chatId,\n    type: \"message\",\n    content: almmsg\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 530,
+        "y": 820,
+        "wires": [
+            [
+                "815235dc85ca71e2",
+                "db65ee0227335777"
+            ]
+        ]
+    },
+    {
+        "id": "c8cc68eec8f7c904",
+        "type": "change",
+        "z": "8756f3d403a40b04",
+        "name": "Set msg",
+        "rules": [
+            {
+                "t": "set",
+                "p": "almrad",
+                "pt": "msg",
+                "to": "alm.state.radHI",
+                "tot": "global"
+            },
+            {
+                "t": "set",
+                "p": "almval",
+                "pt": "msg",
+                "to": "alm.state.valHI",
+                "tot": "global"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 380,
+        "y": 820,
+        "wires": [
+            [
+                "b887f02cbaaea4d2"
+            ]
+        ]
+    },
+    {
+        "id": "b237d905e0ae848a",
+        "type": "debug",
+        "z": "8756f3d403a40b04",
+        "name": "debug 27",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "db65ee0227335777",
+        "type": "debug",
+        "z": "8756f3d403a40b04",
+        "name": "debug 30",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 720,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "fd80af9b2aee5a6c",
+        "type": "inject",
+        "z": "d6bfac57e9ae0511",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 900,
+        "y": 100,
+        "wires": [
+            [
+                "207efc3332145955"
+            ]
+        ]
+    },
+    {
+        "id": "207efc3332145955",
+        "type": "OpcUa-Item",
+        "z": "d6bfac57e9ae0511",
+        "item": "ns=3;s=AirConditioner_1.Temperature",
+        "datatype": "Double",
+        "value": "",
+        "name": "",
+        "x": 1080,
+        "y": 100,
+        "wires": [
+            [
+                "022f857e9aa70e15"
+            ]
+        ]
+    },
+    {
+        "id": "022f857e9aa70e15",
+        "type": "OpcUa-Client",
+        "z": "d6bfac57e9ae0511",
+        "endpoint": "77f058b7f8dabfa6",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": 10,
+        "timeUnit": "s",
+        "certificate": "n",
+        "localfile": "",
+        "name": "",
+        "x": 1260,
+        "y": 100,
+        "wires": [
+            [
+                "7b63a648de78834f"
+            ]
+        ]
+    },
+    {
+        "id": "7b63a648de78834f",
+        "type": "debug",
+        "z": "d6bfac57e9ae0511",
+        "name": "debug 17",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1440,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "cc6d43e43071665f",
+        "type": "inject",
+        "z": "d6bfac57e9ae0511",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Demo.Static.Arrays.Structure;datatype=ExtensionObject",
+        "payload": "",
+        "payloadType": "date",
+        "x": 900,
+        "y": 160,
+        "wires": [
+            [
+                "0e597ec5c1ae4ac1"
+            ]
+        ]
+    },
+    {
+        "id": "0e597ec5c1ae4ac1",
+        "type": "OpcUa-Client",
+        "z": "d6bfac57e9ae0511",
+        "endpoint": "77f058b7f8dabfa6",
+        "action": "read",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": 10,
+        "timeUnit": "s",
+        "certificate": "n",
+        "localfile": "",
+        "name": "",
+        "x": 1080,
+        "y": 160,
+        "wires": [
+            [
+                "cd1f9e1d94302e50"
+            ]
+        ]
+    },
+    {
+        "id": "cd1f9e1d94302e50",
+        "type": "debug",
+        "z": "d6bfac57e9ae0511",
+        "name": "debug 18",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1300,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "aef52d0456318557",
+        "type": "inject",
+        "z": "d6bfac57e9ae0511",
+        "name": "Read multiple items",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "readmultiple",
+        "x": 930,
+        "y": 220,
+        "wires": [
+            [
+                "27a1fa14bd3922bb"
+            ]
+        ]
+    },
+    {
+        "id": "2bd55bd35dd3226f",
+        "type": "inject",
+        "z": "d6bfac57e9ae0511",
+        "name": "Clear nodeId array",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "clearitems",
+        "x": 930,
+        "y": 280,
+        "wires": [
+            [
+                "27a1fa14bd3922bb"
+            ]
+        ]
+    },
+    {
+        "id": "41504fec59d7cb54",
+        "type": "inject",
+        "z": "d6bfac57e9ae0511",
+        "name": "Add items",
+        "props": [
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "additem",
+        "x": 900,
+        "y": 340,
+        "wires": [
+            [
+                "29a8e9107ded65a2"
+            ]
+        ]
+    },
+    {
+        "id": "29a8e9107ded65a2",
+        "type": "function",
+        "z": "d6bfac57e9ae0511",
+        "name": "function 2",
+        "func": "for (let i=1; i<11; i++){\n    msg.topic = `ns=3;s=AirConditioner_${i}.Temperature;datatype=Double`;\n    msg.payload = i;\n    node.send (msg);\n}",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 340,
+        "wires": [
+            [
+                "27a1fa14bd3922bb"
+            ]
+        ]
+    },
+    {
+        "id": "27a1fa14bd3922bb",
+        "type": "OpcUa-Client",
+        "z": "d6bfac57e9ae0511",
+        "endpoint": "77f058b7f8dabfa6",
+        "action": "readmultiple",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": 10,
+        "timeUnit": "s",
+        "certificate": "n",
+        "localfile": "",
+        "name": "",
+        "x": 1260,
+        "y": 280,
+        "wires": [
+            [
+                "93e73bf62a0f556c"
+            ]
+        ]
+    },
+    {
+        "id": "93e73bf62a0f556c",
+        "type": "debug",
+        "z": "d6bfac57e9ae0511",
+        "name": "debug 19",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1440,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "634a16a999b35b76",
+        "type": "inject",
+        "z": "d6bfac57e9ae0511",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=2;s=Demo.Static.Arrays.Double;datatype=Double Array",
+        "payload": "[1,2,3,4,5,6,7,8,9,10]",
+        "payloadType": "json",
+        "x": 930,
+        "y": 400,
+        "wires": [
+            [
+                "343dd4a4fce9644f"
+            ]
+        ]
+    },
+    {
+        "id": "343dd4a4fce9644f",
+        "type": "OpcUa-Client",
+        "z": "d6bfac57e9ae0511",
+        "endpoint": "77f058b7f8dabfa6",
+        "action": "write",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": 10,
+        "timeUnit": "s",
+        "certificate": "n",
+        "localfile": "",
+        "name": "",
+        "x": 1140,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1eeb5ff0.f9c0e",
+        "type": "inject",
+        "z": "d6bfac57e9ae0511",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=3;s=AirConditioner_1.HumiditySetpoint",
+        "payload": "[{\"datatype\":\"Double\",\"nodeId\":\"ns=3;s=AirConditioner_1.TemperatureSetPoint\",\"value\":55},{\"datatype\":\"Double Array\",\"nodeId\":\"ns=2;s=Demo.Static.Arrays.Double\",\"value\":[1,22]}]",
+        "payloadType": "json",
+        "x": 890,
+        "y": 460,
+        "wires": [
+            [
+                "4f06c0adde86632d"
+            ]
+        ]
+    },
+    {
+        "id": "4f06c0adde86632d",
+        "type": "OpcUa-Client",
+        "z": "d6bfac57e9ae0511",
+        "endpoint": "77f058b7f8dabfa6",
+        "action": "writemultiple",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": 10,
+        "timeUnit": "s",
+        "certificate": "n",
+        "localfile": "",
+        "name": "",
+        "x": 1080,
+        "y": 460,
+        "wires": [
+            [
+                "75023e0fcfcf8d09"
+            ]
+        ]
+    },
+    {
+        "id": "75023e0fcfcf8d09",
+        "type": "debug",
+        "z": "d6bfac57e9ae0511",
+        "name": "debug 20",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1260,
+        "y": 460,
+        "wires": []
+    },
+    {
+        "id": "a52733fedafdc127",
+        "type": "inject",
+        "z": "d6bfac57e9ae0511",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "ns=3;s=AirConditioner_1.Temperature",
+        "payload": "5000",
+        "payloadType": "num",
+        "x": 890,
+        "y": 520,
+        "wires": [
+            [
+                "817111aad56d8f64"
+            ]
+        ]
+    },
+    {
+        "id": "817111aad56d8f64",
+        "type": "OpcUa-Client",
+        "z": "d6bfac57e9ae0511",
+        "endpoint": "77f058b7f8dabfa6",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "5",
+        "timeUnit": "s",
+        "certificate": "n",
+        "localfile": "",
+        "name": "",
+        "x": 1080,
+        "y": 520,
+        "wires": [
+            [
+                "ff1b25e7346ce055"
+            ]
+        ]
+    },
+    {
+        "id": "ff1b25e7346ce055",
+        "type": "debug",
+        "z": "d6bfac57e9ae0511",
+        "name": "debug 21",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1260,
+        "y": 520,
+        "wires": []
+    },
+    {
+        "id": "aa13b8fef3fd8fcc",
+        "type": "function",
+        "z": "d6bfac57e9ae0511",
+        "name": "function 3",
+        "func": "for (let i=1; i<11; i++){\n    msg.topic = `ns=3;s=AirConditioner_${i}.Temperature;datatype=Double`;\n    msg.payload = i;\n    node.send (msg);\n}\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1040,
+        "y": 580,
+        "wires": [
+            [
+                "cb87366da74decc3"
+            ]
+        ]
+    },
+    {
+        "id": "6ee73d5fec260262",
+        "type": "inject",
+        "z": "d6bfac57e9ae0511",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "ns=3;s=AirConditioner_1.Temperature",
+        "payload": "5000",
+        "payloadType": "num",
+        "x": 890,
+        "y": 580,
+        "wires": [
+            [
+                "aa13b8fef3fd8fcc"
+            ]
+        ]
+    },
+    {
+        "id": "cb87366da74decc3",
+        "type": "OpcUa-Client",
+        "z": "d6bfac57e9ae0511",
+        "endpoint": "77f058b7f8dabfa6",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "5",
+        "timeUnit": "s",
+        "certificate": "n",
+        "localfile": "",
+        "name": "",
+        "x": 1220,
+        "y": 580,
+        "wires": [
+            [
+                "63916afe39930966"
+            ]
+        ]
+    },
+    {
+        "id": "63916afe39930966",
+        "type": "debug",
+        "z": "d6bfac57e9ae0511",
+        "name": "debug 22",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1460,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "1fa4c9a8228b0b23",
+        "type": "OpcUa-Client",
+        "z": "84509d07d435e576",
+        "endpoint": "77f058b7f8dabfa6",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "1",
+        "timeUnit": "s",
+        "certificate": "n",
+        "localfile": "",
+        "name": "",
+        "x": 1210,
+        "y": 220,
+        "wires": [
+            [
+                "ff112479debf24c4",
+                "a434222f891058bd"
+            ]
+        ]
+    },
+    {
+        "id": "5e0d8574a4e29192",
+        "type": "inject",
+        "z": "84509d07d435e576",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 820,
+        "y": 220,
+        "wires": [
+            [
+                "3026c7758bc314a4"
+            ]
+        ]
+    },
+    {
+        "id": "3026c7758bc314a4",
+        "type": "function",
+        "z": "84509d07d435e576",
+        "name": "addsubscribe",
+        "func": "let RTDB = {};\nconst pref = \"ns=3;s=\";\nfor (let i=1; i<3; i++) {\n    let obname = pref + \"AirConditioner_\" + i;\n    let ob = RTDB[obname] = {\n        Humidity: {val : 0, topic : obname + \".Humidity\" },\n        HumiditySetpoint:{val : 0, topic : obname + \".HumiditySetpoint\" },\n        PowerConsumption:{val : 0, topic : obname + \".PowerConsumption\" },\n        State: {val : 0, topic : obname + \".State\" },\n        Temperature:{val : 0, topic : obname + \".Temperature\" },\n        TemperatureSetPoint:{val : 0, topic : obname + \".TemperatureSetPoint\" }        \n    };\n}\nglobal.set (\"RTDB\", RTDB);\nmsg.payload = RTDB;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 990,
+        "y": 220,
+        "wires": [
+            [
+                "6865d22d7d8efffa"
+            ]
+        ]
+    },
+    {
+        "id": "ff112479debf24c4",
+        "type": "debug",
+        "z": "84509d07d435e576",
+        "name": "",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1420,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "6865d22d7d8efffa",
+        "type": "split",
+        "z": "84509d07d435e576",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 840,
+        "y": 280,
+        "wires": [
+            [
+                "36557d3b384e4a72"
+            ]
+        ]
+    },
+    {
+        "id": "36557d3b384e4a72",
+        "type": "split",
+        "z": "84509d07d435e576",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "x": 980,
+        "y": 280,
+        "wires": [
+            [
+                "197b0797e7808fb3"
+            ]
+        ]
+    },
+    {
+        "id": "197b0797e7808fb3",
+        "type": "change",
+        "z": "84509d07d435e576",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "payload.topic",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "1000",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1130,
+        "y": 280,
+        "wires": [
+            [
+                "1fa4c9a8228b0b23"
+            ]
+        ]
+    },
+    {
+        "id": "a434222f891058bd",
+        "type": "function",
+        "z": "84509d07d435e576",
+        "name": "ToRDB",
+        "func": "global.set (\"RTDB.\" + msg.topic + \".val\", msg.payload);\n//запись отметки времени в числовом формате \nglobal.set (\"RTDB.\" + msg.topic + \".ts\", new Date(msg.sourceTimestamp).valueOf());\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1360,
+        "y": 300,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4fc7be5e1f43326d",
+        "type": "inject",
+        "z": "76bcc671b3a34490",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "5",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 290,
+        "y": 120,
+        "wires": [
+            [
+                "e070dc79cf9e42b4"
+            ]
+        ]
+    },
+    {
+        "id": "e070dc79cf9e42b4",
+        "type": "function",
+        "z": "76bcc671b3a34490",
+        "name": "function 4",
+        "func": "let cond = global.get(\"RTDB.ns=3;s=AirConditioner_1\");\nlet ob = {};\n//https://ubidots.com/docs/hw/#introduction\nfor (const tag in cond) {\n    ob[tag] = {\n        \"value\": cond[tag].val,\n        \"timestamp\": cond[tag].ts,\n        \"context\": { \"key1\": \"value1\", \"key2\": \"value2\" },\n        \"created_at\": cond[tag].ts\n    };\n}\nmsg.payload = ob;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 460,
+        "y": 120,
+        "wires": [
+            [
+                "7597bb4f46973848"
+            ]
+        ]
+    },
+    {
+        "id": "3941423760dd68a6",
+        "type": "debug",
+        "z": "76bcc671b3a34490",
+        "name": "debug 23",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 700,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "4daa75f06e5b25cf",
+        "type": "ubidots_in",
+        "z": "76bcc671b3a34490",
+        "tier": "business",
+        "name": "Ubidots in",
+        "token": "BBUS-dcIuCenMXc1efqsfqLOD64O0jsCM25",
+        "device_label": "Conditioner_1",
+        "tls_checkbox_in": true,
+        "custom_topic_checkbox": false,
+        "label_variable_1": "HumiditySetpoint",
+        "label_variable_2": "",
+        "label_variable_3": "",
+        "label_variable_4": "",
+        "label_variable_5": "",
+        "label_variable_6": "",
+        "label_variable_7": "",
+        "label_variable_8": "",
+        "label_variable_9": "",
+        "label_variable_10": "",
+        "checkbox_variable_1_last_value": true,
+        "checkbox_variable_2_last_value": true,
+        "checkbox_variable_3_last_value": true,
+        "checkbox_variable_4_last_value": true,
+        "checkbox_variable_5_last_value": true,
+        "checkbox_variable_6_last_value": true,
+        "checkbox_variable_7_last_value": true,
+        "checkbox_variable_8_last_value": true,
+        "checkbox_variable_9_last_value": true,
+        "checkbox_variable_10_last_value": true,
+        "x": 240,
+        "y": 200,
+        "wires": [
+            [
+                "5be059e4ab94c90d"
+            ]
+        ]
+    },
+    {
+        "id": "5be059e4ab94c90d",
+        "type": "change",
+        "z": "76bcc671b3a34490",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "ns=3;s=AirConditioner_1.HumiditySetpoint;datatype=Double",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.humiditysetpoint.value",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 200,
+        "wires": [
+            [
+                "85277be4989a238f",
+                "3941423760dd68a6"
+            ]
+        ]
+    },
+    {
+        "id": "85277be4989a238f",
+        "type": "OpcUa-Client",
+        "z": "76bcc671b3a34490",
+        "endpoint": "77f058b7f8dabfa6",
+        "action": "write",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "1",
+        "timeUnit": "s",
+        "certificate": "n",
+        "localfile": "",
+        "name": "",
+        "x": 720,
+        "y": 240,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "fb06087a84c03cb1",
+        "type": "ubidots_in",
+        "z": "76bcc671b3a34490",
+        "tier": "business",
+        "name": "Ubidots in",
+        "token": "BBUS-dcIuCenMXc1efqsfqLOD64O0jsCM25",
+        "device_label": "Conditioner_1",
+        "tls_checkbox_in": true,
+        "custom_topic_checkbox": false,
+        "label_variable_1": "TemperatureSetPoint",
+        "label_variable_2": "",
+        "label_variable_3": "",
+        "label_variable_4": "",
+        "label_variable_5": "",
+        "label_variable_6": "",
+        "label_variable_7": "",
+        "label_variable_8": "",
+        "label_variable_9": "",
+        "label_variable_10": "",
+        "checkbox_variable_1_last_value": true,
+        "checkbox_variable_2_last_value": true,
+        "checkbox_variable_3_last_value": true,
+        "checkbox_variable_4_last_value": true,
+        "checkbox_variable_5_last_value": true,
+        "checkbox_variable_6_last_value": true,
+        "checkbox_variable_7_last_value": true,
+        "checkbox_variable_8_last_value": true,
+        "checkbox_variable_9_last_value": true,
+        "checkbox_variable_10_last_value": true,
+        "x": 240,
+        "y": 280,
+        "wires": [
+            [
+                "a387a35cd4530984"
+            ]
+        ]
+    },
+    {
+        "id": "a387a35cd4530984",
+        "type": "change",
+        "z": "76bcc671b3a34490",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "ns=3;s=AirConditioner_1.TemperatureSetPoint;datatype=Double",
+                "tot": "str"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.temperaturesetpoint.value",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 280,
+        "wires": [
+            [
+                "85277be4989a238f",
+                "3941423760dd68a6"
+            ]
+        ]
+    },
+    {
+        "id": "7597bb4f46973848",
+        "type": "ubidots_out",
+        "z": "76bcc671b3a34490",
+        "name": "",
+        "token": "BBUS-dcIuCenMXc1efqsfqLOD64O0jsCM25",
+        "label_device": "",
+        "device_label": "Conditioner_1",
+        "tier": "educational",
+        "tls_checkbox": true,
+        "x": 630,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "ab472f9b460178a2",
+        "type": "function",
+        "z": "760f23939087cb96",
+        "name": "multiplesubscribe",
+        "func": "msg.payload=10000;\nfor (let i = 1; i < 11; i++) {\n   msg.topic=`ns=3;s=AirConditioner_${i}.Temperature`;\n   node.send(msg);\n    }\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 970,
+        "y": 140,
+        "wires": [
+            [
+                "a21fad02e87d5aa8"
+            ]
+        ]
+    },
+    {
+        "id": "c8770202d16a3012",
+        "type": "inject",
+        "z": "760f23939087cb96",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 790,
+        "y": 140,
+        "wires": [
+            [
+                "ab472f9b460178a2"
+            ]
+        ]
+    },
+    {
+        "id": "c79ed1b84a742571",
+        "type": "debug",
+        "z": "760f23939087cb96",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1350,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "a21fad02e87d5aa8",
+        "type": "OpcUa-Client",
+        "z": "760f23939087cb96",
+        "endpoint": "77f058b7f8dabfa6",
+        "action": "subscribe",
+        "deadbandtype": "a",
+        "deadbandvalue": 1,
+        "time": "10",
+        "timeUnit": "s",
+        "certificate": "n",
+        "localfile": "",
+        "name": "",
+        "x": 1160,
+        "y": 140,
+        "wires": [
+            [
+                "1ef5bdfa8f62c7a1"
+            ]
+        ]
+    },
+    {
+        "id": "d3727b6cd9633b8f",
+        "type": "Stackhero-InfluxDB-v2-write",
+        "z": "760f23939087cb96",
+        "server": "5a8244e6c7c10971",
+        "name": "InfluxDBwrite",
+        "x": 1050,
+        "y": 200,
+        "wires": [
+            [
+                "c79ed1b84a742571"
+            ]
+        ]
+    },
+    {
+        "id": "24c0e70e64d3ab41",
+        "type": "join",
+        "z": "760f23939087cb96",
+        "name": "",
+        "mode": "custom",
+        "build": "array",
+        "property": "payload",
+        "propertyType": "msg",
+        "key": "topic",
+        "joiner": "\\n",
+        "joinerType": "str",
+        "accumulate": false,
+        "timeout": "",
+        "count": "10",
+        "reduceRight": false,
+        "reduceExp": "",
+        "reduceInit": "",
+        "reduceInitType": "num",
+        "reduceFixup": "",
+        "x": 1415,
+        "y": 140,
+        "wires": [
+            [
+                "769db09ab15b6d24"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "1ef5bdfa8f62c7a1",
+        "type": "switch",
+        "z": "760f23939087cb96",
+        "name": "",
+        "property": "topic",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "cont",
+                "v": "ns=3;s=AirConditioner",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 1295,
+        "y": 140,
+        "wires": [
+            [
+                "53fdf054dc0c9e9f"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "53fdf054dc0c9e9f",
+        "type": "function",
+        "z": "760f23939087cb96",
+        "name": "",
+        "func": "let str=\"\";\nlet obj={};\nstr=msg.topic.replace(\"ns=3;s=\",\"\");\nobj.device=str.replace(\".Temperature\",\"\");\nobj.fields={Temperature:msg.payload};\nobj.timestamp=msg.serverTimestamp;\nmsg={};\nmsg.payload=obj;\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1355,
+        "y": 140,
+        "wires": [
+            [
+                "24c0e70e64d3ab41"
+            ]
+        ],
+        "l": false
+    },
+    {
+        "id": "769db09ab15b6d24",
+        "type": "function",
+        "z": "760f23939087cb96",
+        "name": "msgtoinflux",
+        "func": "let datastore=[];\nclass sample {\n  constructor(payload) {\n    this.data={\n        measurement:'Building',\n        tags: {\n            device: payload.device,\n        },\n        fields: payload.fields,\n        timestamp: new Date(payload.timestamp).getTime()\n    }\n  }\n}\nfor (let i=0; i<msg.payload.length;i++){\n    let dataobj=new sample(msg.payload[i]);\n    datastore.push(dataobj.data);\n}\nmsg.payload = {\n    bucket:'firstbucket',\n    precision: 'ms',\n    data:datastore,\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 790,
+        "y": 200,
+        "wires": [
+            [
+                "d3727b6cd9633b8f",
+                "c79ed1b84a742571"
+            ]
+        ]
+    },
+    {
+        "id": "2eb2f2c189f91eec",
+        "type": "GSheet",
+        "z": "889b8d3d3f991896",
+        "creds": "f3a1a9fa2903623c",
+        "method": "get",
+        "action": "",
+        "sheet": "1k3jFMKr9PTicdiusdsedWSmUOLvH3lEnolg-mLMDKag",
+        "cells": "Ответы на форму (1)!B2:B50",
+        "flatten": false,
+        "name": "Запит на отримання з таблиці",
+        "x": 410,
+        "y": 160,
+        "wires": [
+            [
+                "65d2d65633eadc80"
+            ]
+        ]
+    },
+    {
+        "id": "56c5d285ee82265d",
+        "type": "inject",
+        "z": "889b8d3d3f991896",
+        "name": "Інтервал запиту",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 140,
+        "y": 160,
+        "wires": [
+            [
+                "2eb2f2c189f91eec"
+            ]
+        ]
+    },
+    {
+        "id": "8da14f3fa05373c8",
+        "type": "debug",
+        "z": "889b8d3d3f991896",
+        "name": "debug 24",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 780,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "8012e5e5e2c5d3d3",
+        "type": "function",
+        "z": "889b8d3d3f991896",
+        "name": "Обробка ",
+        "func": "// Ініціалізуємо змінні\nvar totalCount = 0;\nvar count9To10 = 0;\nvar count7To8 = 0;\nvar countother = 0;\nvar promo = 0;\nvar neitral = 0;\nvar critic =0;\nvar nps =0;\n// Обчислюємо кількість елементів, що задовольняють умові\nfor (var i = 0; i < msg.payload.length; i++) {\n    var element = msg.payload[i];\n    if (element >= 9 && element <=10) {\n        count9To10++;\n    }else if (element >= 7 && element <= 8) {\n        count7To8++;\n    }else {\n        countother++;\n    } \n    totalCount++;  \n}\npromo = (count9To10 / totalCount)*100;\nneitral = (count7To8 / totalCount) * 100;\ncritic = (countother / totalCount) * 100;\nnps = promo - critic;\n// Передаємо кількість у полі msg.payload\n/*msg.payload = {\n    count9To10: count9To10,\n    count7To8: count7To8,\n    countother: countother,\n    totalCount: totalCount,\n    promo: promo,\n    neitral: neitral,\n    critic: critic,\n    nps: nps\n};*/\nmsg.payload = [promo, neitral, critic, nps];\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 380,
+        "y": 240,
+        "wires": [
+            [
+                "188fbae5a5277ab5"
+            ]
+        ]
+    },
+    {
+        "id": "65d2d65633eadc80",
+        "type": "function",
+        "z": "889b8d3d3f991896",
+        "name": "Об'єднання масивів",
+        "func": "// Перевіряємо, чи масиви msg.payload існують\nif (!Array.isArray(msg.payload)) {\n    node.error(\"msg.payload не є масивом\");\n    return null;\n}\n\n// Об'єднуємо всі масиви за допомогою циклу\nvar combinedArray = [];\nfor (var i = 0; i < msg.payload.length; i++) {\n    if (Array.isArray(msg.payload[i])) {\n        combinedArray.push(...msg.payload[i]);\n    }\n}\n// Передаємо об'єднаний масив у полі msg.payload\nmsg.payload = combinedArray;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 160,
+        "y": 240,
+        "wires": [
+            [
+                "8012e5e5e2c5d3d3"
+            ]
+        ]
+    },
+    {
+        "id": "6ce06d055efacf8c",
+        "type": "GSheet",
+        "z": "889b8d3d3f991896",
+        "creds": "f3a1a9fa2903623c",
+        "method": "update",
+        "action": "",
+        "sheet": "1fySiGcWXNCkuq7gGqOE4r9M1GplmP45knt0ZCk4eEWc",
+        "cells": "Лист1!A2:D2",
+        "flatten": false,
+        "name": "Запис в таблицю таблиці",
+        "x": 470,
+        "y": 320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "2525effecd13e9e0",
+        "type": "function",
+        "z": "889b8d3d3f991896",
+        "name": "function 6",
+        "func": "// Функція для зміни роздільника чисел в об'єкті\nfunction changeDecimalSeparator(obj) {\n    // Рекурсивно перебираємо властивості об'єкта\n    for (var prop in obj) {\n        if (typeof obj[prop] === \"object\") {\n            // Якщо властивість є об'єктом, викликаємо функцію знову для обробки вкладеного об'єкта\n            changeDecimalSeparator(obj[prop]);\n        } else if (typeof obj[prop] === \"number\") {\n            // Якщо властивість є числом, перетворюємо його у рядок та замінюємо крапку на кому\n            obj[prop] = obj[prop].toString().replace(\".\", \",\");\n        }\n    }\n}\n\n// Викликаємо функцію для зміни роздільника чисел в msg.payload\nchangeDecimalSeparator(msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 360,
+        "y": 400,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "188fbae5a5277ab5",
+        "type": "function",
+        "z": "889b8d3d3f991896",
+        "name": "Заміна формату числа",
+        "func": "if (Array.isArray(msg.payload)) {\n    // Якщо msg.payload є масивом, перетворюємо кожен елемент\n    for (var i = 0; i < msg.payload.length; i++) {\n        msg.payload[i] = msg.payload[i].toString().replace(\".\", \",\");\n    }\n}\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 190,
+        "y": 320,
+        "wires": [
+            [
+                "6ce06d055efacf8c",
+                "8da14f3fa05373c8"
+            ]
+        ]
+    },
+    {
+        "id": "46c4b304982136a6",
+        "type": "GSheet",
+        "z": "b07375343f850ae4",
+        "creds": "f3a1a9fa2903623c",
+        "method": "get",
+        "action": "",
+        "sheet": "1orx10aQbmvb7JO6KuiOhYlVUwjFpin-8BbyVCIVN0hg",
+        "cells": "Ответы на форму (1)!B2:D50",
+        "flatten": false,
+        "name": "Лояльність",
+        "x": 330,
+        "y": 40,
+        "wires": [
+            [
+                "e93af748c6fc3558"
+            ]
+        ]
+    },
+    {
+        "id": "865e318ca287b6d1",
+        "type": "inject",
+        "z": "b07375343f850ae4",
+        "name": "Інтервал запиту",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "10",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 150,
+        "y": 40,
+        "wires": [
+            [
+                "46c4b304982136a6"
+            ]
+        ]
+    },
+    {
+        "id": "915bbe4ec1aa9810",
+        "type": "GSheet",
+        "z": "b07375343f850ae4",
+        "creds": "f3a1a9fa2903623c",
+        "method": "update",
+        "action": "",
+        "sheet": "14HX1GQ4ArO6ANeghd9MdkI6pD-QTRVZX92MM4yFlAgM",
+        "cells": "Лист1!B2:E2",
+        "flatten": false,
+        "name": "Запис в таблицю таблиці",
+        "x": 810,
+        "y": 220,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bb3cc8da122a9575",
+        "type": "function",
+        "z": "b07375343f850ae4",
+        "name": "function 7",
+        "func": "// Функція для зміни роздільника чисел в об'єкті\nfunction changeDecimalSeparator(obj) {\n    // Рекурсивно перебираємо властивості об'єкта\n    for (var prop in obj) {\n        if (typeof obj[prop] === \"object\") {\n            // Якщо властивість є об'єктом, викликаємо функцію знову для обробки вкладеного об'єкта\n            changeDecimalSeparator(obj[prop]);\n        } else if (typeof obj[prop] === \"number\") {\n            // Якщо властивість є числом, перетворюємо його у рядок та замінюємо крапку на кому\n            obj[prop] = obj[prop].toString().replace(\".\", \",\");\n        }\n    }\n}\n\n// Викликаємо функцію для зміни роздільника чисел в msg.payload\nchangeDecimalSeparator(msg.payload);\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 140,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "e93af748c6fc3558",
+        "type": "function",
+        "z": "b07375343f850ae4",
+        "name": "Об'єднання масивів",
+        "func": "// Перевіряємо, чи масиви msg.payload існують\nif (!Array.isArray(msg.payload)) {\n    node.error(\"msg.payload не є масивом\");\n    return null;\n}\n\n// Об'єднуємо всі масиви за допомогою циклу\nvar combinedArray = [];\nfor (var i = 0; i < msg.payload.length; i++) {\n    if (Array.isArray(msg.payload[i])) {\n        combinedArray.push(...msg.payload[i]);\n    }\n}\n// Передаємо об'єднаний масив у полі msg.payload\nmsg.loyal = combinedArray;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 40,
+        "wires": [
+            [
+                "c8decfd5a3b8563d"
+            ]
+        ]
+    },
+    {
+        "id": "c8decfd5a3b8563d",
+        "type": "GSheet",
+        "z": "b07375343f850ae4",
+        "creds": "f3a1a9fa2903623c",
+        "method": "get",
+        "action": "",
+        "sheet": "1orx10aQbmvb7JO6KuiOhYlVUwjFpin-8BbyVCIVN0hg",
+        "cells": "Ответы на форму (1)!E2:F50",
+        "flatten": false,
+        "name": "Сприймає якість",
+        "x": 350,
+        "y": 100,
+        "wires": [
+            [
+                "d64855d201bc24b5"
+            ]
+        ]
+    },
+    {
+        "id": "60447f950e11e3eb",
+        "type": "GSheet",
+        "z": "b07375343f850ae4",
+        "creds": "f3a1a9fa2903623c",
+        "method": "get",
+        "action": "",
+        "sheet": "1orx10aQbmvb7JO6KuiOhYlVUwjFpin-8BbyVCIVN0hg",
+        "cells": "Ответы на форму (1)!G2:K50",
+        "flatten": false,
+        "name": "Проінформованість",
+        "x": 360,
+        "y": 160,
+        "wires": [
+            [
+                "26e49b6a12f7a9e4"
+            ]
+        ]
+    },
+    {
+        "id": "d64855d201bc24b5",
+        "type": "function",
+        "z": "b07375343f850ae4",
+        "name": "Об'єднання масивів",
+        "func": "// Перевіряємо, чи масиви msg.payload існують\nif (!Array.isArray(msg.payload)) {\n    node.error(\"msg.payload не є масивом\");\n    return null;\n}\n\n// Об'єднуємо всі масиви за допомогою циклу\nvar combinedArray = [];\nfor (var i = 0; i < msg.payload.length; i++) {\n    if (Array.isArray(msg.payload[i])) {\n        combinedArray.push(...msg.payload[i]);\n    }\n}\n// Передаємо об'єднаний масив у полі msg.payload\nmsg.yakist = combinedArray;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 100,
+        "wires": [
+            [
+                "60447f950e11e3eb"
+            ]
+        ]
+    },
+    {
+        "id": "26e49b6a12f7a9e4",
+        "type": "function",
+        "z": "b07375343f850ae4",
+        "name": "Об'єднання масивів",
+        "func": "// Перевіряємо, чи масиви msg.payload існують\nif (!Array.isArray(msg.payload)) {\n    node.error(\"msg.payload не є масивом\");\n    return null;\n}\n\n// Об'єднуємо всі масиви за допомогою циклу\nvar combinedArray = [];\nfor (var i = 0; i < msg.payload.length; i++) {\n    if (Array.isArray(msg.payload[i])) {\n        combinedArray.push(...msg.payload[i]);\n    }\n}\n// Передаємо об'єднаний масив у полі msg.payload\nmsg.proinfo = combinedArray;\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 580,
+        "y": 160,
+        "wires": [
+            [
+                "51bb3eef3e496597"
+            ]
+        ]
+    },
+    {
+        "id": "51bb3eef3e496597",
+        "type": "function",
+        "z": "b07375343f850ae4",
+        "name": "Обробка ",
+        "func": "// Ініціалізуємо змінні\nvar sumloyal = 0;\nvar countloyal = 0;\nvar avgloyal = 0;\nvar sumyakist = 0;\nvar countyakist = 0;\nvar avgyakist = 0;\nvar sumproinfo = 0;\nvar countproinfo = 0;\nvar avgproinfo = 0;\nvar avgsum = 0;\nvar scaleloyal = 0;\nvar scaleyakist =0;\nvar scaleproinfo =0;\nvar scalavgsum =0;\nfor (var i = 0; i < msg.loyal.length; i++) {\n    var number = parseFloat(msg.loyal[i]);\n    if (!isNaN(number)) {\n        sumloyal += number;\n        countloyal++;\n    }\n}\nfor (var i = 0; i < msg.yakist.length; i++) {\n    var number = parseFloat(msg.yakist[i]);\n    if (!isNaN(number)) {\n        sumyakist += number;\n        countyakist++;\n    }\n}\nfor (var i = 0; i < msg.proinfo.length; i++) {\n    var number = parseFloat(msg.proinfo[i]);\n    if (!isNaN(number)) {\n        sumproinfo += number;\n        countproinfo++;\n    }\n}\navgloyal = sumloyal / countloyal;\navgyakist = sumyakist/ countyakist;\navgproinfo = sumproinfo/ countproinfo;\navgsum = avgloyal + avgyakist + avgproinfo;\n\nscaleloyal = (avgloyal / 5)*100;\nscaleyakist = (avgyakist / 5) * 100;\nscaleproinfo = (avgproinfo / 5) * 100;\nscalavgsum = (avgsum/15)*100;\nmsg.payload1 = [avgloyal, avgyakist, avgproinfo, avgsum];\nmsg.payload2= [scaleloyal, scaleyakist, scaleproinfo,scalavgsum]\nmsg.gaugescaleloyal = Number(scaleloyal.toFixed(2));\nmsg.gaugescaleyakist = Number(scaleyakist.toFixed(2));\nmsg.gaugescaleproinfo = Number(scaleproinfo.toFixed(2));\nmsg.gaugescalavgsum =  Number(scalavgsum.toFixed(2));\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 340,
+        "y": 220,
+        "wires": [
+            [
+                "c291bed629795e0c",
+                "b10917ad9325a411",
+                "7349382ff4abc0d1",
+                "8ca56bd598c64ab0",
+                "2207f00814c48d8e",
+                "b81ab21da69d57c4"
+            ]
+        ]
+    },
+    {
+        "id": "19ed85e33b94e280",
+        "type": "function",
+        "z": "b07375343f850ae4",
+        "name": "Заміна формату числа",
+        "func": "if (Array.isArray(msg.payload)) {\n    for (var i = 0; i < msg.payload.length; i++) {\n        msg.payload[i] = msg.payload[i].toString().replace(\".\", \",\");\n    }\n}\nmsg = { payload: msg.payload };\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 330,
+        "y": 660,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c291bed629795e0c",
+        "type": "change",
+        "z": "b07375343f850ae4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload2",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 260,
+        "wires": [
+            [
+                "3b44752d34672368"
+            ]
+        ]
+    },
+    {
+        "id": "3b44752d34672368",
+        "type": "GSheet",
+        "z": "b07375343f850ae4",
+        "creds": "f3a1a9fa2903623c",
+        "method": "update",
+        "action": "",
+        "sheet": "14HX1GQ4ArO6ANeghd9MdkI6pD-QTRVZX92MM4yFlAgM",
+        "cells": "Лист1!B4:E4",
+        "flatten": false,
+        "name": "Запис в таблицю таблиці",
+        "x": 810,
+        "y": 260,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b10917ad9325a411",
+        "type": "change",
+        "z": "b07375343f850ae4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload1",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 220,
+        "wires": [
+            [
+                "915bbe4ec1aa9810"
+            ]
+        ]
+    },
+    {
+        "id": "e0127bb5918132e8",
+        "type": "function",
+        "z": "b07375343f850ae4",
+        "name": "DataTime",
+        "func": "var date1 = new Date(msg.payload);\nmsg.payload = date1.toLocaleString();\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 560,
+        "y": 540,
+        "wires": [
+            [
+                "d3f849eaecd1e18c"
+            ]
+        ]
+    },
+    {
+        "id": "d3f849eaecd1e18c",
+        "type": "ui_text",
+        "z": "b07375343f850ae4",
+        "group": "58c48080f93563cb",
+        "order": 1,
+        "width": "15",
+        "height": 1,
+        "name": "",
+        "label": "Дата",
+        "format": "{{msg.payload}}",
+        "layout": "row-center",
+        "className": "",
+        "x": 730,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "11b257bab97e1b74",
+        "type": "inject",
+        "z": "b07375343f850ae4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 360,
+        "y": 540,
+        "wires": [
+            [
+                "e0127bb5918132e8"
+            ]
+        ]
+    },
+    {
+        "id": "ae276b528d3962d8",
+        "type": "ui_gauge",
+        "z": "b07375343f850ae4",
+        "name": "",
+        "group": "4a5e1c9a8f82532c",
+        "order": 1,
+        "width": 6,
+        "height": 4,
+        "gtype": "gage",
+        "title": "Лояльність",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#ce0909",
+            "#e6e600",
+            "#00b500"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 850,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "7349382ff4abc0d1",
+        "type": "change",
+        "z": "b07375343f850ae4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "gaugescaleloyal",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Лояльність",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 300,
+        "wires": [
+            [
+                "ae276b528d3962d8",
+                "ae668d2f7b10939c"
+            ]
+        ]
+    },
+    {
+        "id": "8ca56bd598c64ab0",
+        "type": "change",
+        "z": "b07375343f850ae4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "gaugescaleyakist",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Якість",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 340,
+        "wires": [
+            [
+                "89456d9b9acc9176",
+                "ae668d2f7b10939c"
+            ]
+        ]
+    },
+    {
+        "id": "2207f00814c48d8e",
+        "type": "change",
+        "z": "b07375343f850ae4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "gaugescaleproinfo",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "Проінформованість",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 380,
+        "wires": [
+            [
+                "54f4fcb87f78eaea",
+                "ae668d2f7b10939c"
+            ]
+        ]
+    },
+    {
+        "id": "b81ab21da69d57c4",
+        "type": "change",
+        "z": "b07375343f850ae4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "gaugescalavgsum",
+                "tot": "msg"
+            },
+            {
+                "t": "set",
+                "p": "topic",
+                "pt": "msg",
+                "to": "MBE",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 540,
+        "y": 420,
+        "wires": [
+            [
+                "160cf125f7bf3f21",
+                "ae668d2f7b10939c"
+            ]
+        ]
+    },
+    {
+        "id": "89456d9b9acc9176",
+        "type": "ui_gauge",
+        "z": "b07375343f850ae4",
+        "name": "",
+        "group": "a7487ec3dac9f9bb",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Якість",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#ce0909",
+            "#e6e600",
+            "#00b500"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 870,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "54f4fcb87f78eaea",
+        "type": "ui_gauge",
+        "z": "b07375343f850ae4",
+        "name": "",
+        "group": "3ba998ed2014a277",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Проінформованість",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#ce0909",
+            "#e6e600",
+            "#00b500"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 820,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "160cf125f7bf3f21",
+        "type": "ui_gauge",
+        "z": "b07375343f850ae4",
+        "name": "",
+        "group": "65c7fba358b16418",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "MBE",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#ce0909",
+            "#e6e600",
+            "#00b500"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "diff": false,
+        "className": "",
+        "x": 870,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "ae668d2f7b10939c",
+        "type": "ui_chart",
+        "z": "b07375343f850ae4",
+        "name": "",
+        "group": "3a278ce11f9dbe3e",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "label": "Зміна MBE",
+        "chartType": "line",
+        "legend": "true",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "10",
+        "removeOlderPoints": "1000",
+        "removeOlderUnit": "3600",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 790,
+        "y": 480,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "ffaf633bd326fcb5",
+        "type": "debug",
+        "z": "b07375343f850ae4",
+        "name": "debug 25",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 680,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "ee6c5640d935e70d",
+        "type": "function",
+        "z": "b07375343f850ae4",
+        "name": "function 8",
+        "func": "msg = { payload: msg.payload2};\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 240,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b8bf539fa6572564",
+        "type": "change",
+        "z": "d8fa57a5ef9491a4",
+        "name": "set1",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "{\"number\": 53}",
+                "tot": "json"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 390,
+        "y": 840,
+        "wires": [
+            [
+                "58297739fecc8006"
+            ]
+        ]
+    },
+    {
+        "id": "77b8d323542bb50a",
+        "type": "http in",
+        "z": "d8fa57a5ef9491a4",
+        "name": "",
+        "url": "/test",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 400,
+        "y": 920,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "58297739fecc8006",
+        "type": "json",
+        "z": "d8fa57a5ef9491a4",
+        "name": "",
+        "property": "payload",
+        "action": "str",
+        "pretty": false,
+        "x": 530,
+        "y": 840,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "6224d907efd62873",
+        "type": "function",
+        "z": "d8fa57a5ef9491a4",
+        "name": "Економічні розрахунки",
+        "func": "// Отримати глобальний контекст\nvar globalContext = global.get('globalContext') || {};\n//розрахунок вартості 1 МДж  енергії\nconst Cf = globalContext.data.Cf\nconst Hf = globalContext.data.Hf // калорійність палива (Газ)\nconst KKD = globalContext.result1.KKD\nlet Ce = (100 * Cf)/(Hf*KKD)\n//розрахунок вартості виготовлення 1т пари\nconst Hs = globalContext.data.Hs //Ентальпія пари при тиску 1400кПа\nconst Hfw = globalContext.data.Hfw //Ентальпія живильної води\nlet Cs = Ce * (Hs - Hfw)\nif (Ce <= 0) {\n    Ce = 0\n}\nif (Cs <= 0) {\n    Cs = 0\n}\n\nmsg.payload = {\n    Ce: Ce,\n    Cs: Cs\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1330,
+        "y": 1040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "31611acf85c4884b",
+        "type": "inject",
+        "z": "d8fa57a5ef9491a4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "tets",
+        "payload": "{\"test\": 1}",
+        "payloadType": "json",
+        "x": 190,
+        "y": 1140,
+        "wires": [
+            [
+                "946f64b7b33caae8"
+            ]
+        ]
+    },
+    {
+        "id": "d93533fe2be968d3",
+        "type": "http response",
+        "z": "d8fa57a5ef9491a4",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 730,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "7432f6a9c1642e13",
+        "type": "s7 in",
+        "z": "d8fa57a5ef9491a4",
+        "endpoint": "fcb39804f01887c9",
+        "mode": "all",
+        "variable": "GAZ",
+        "diff": true,
+        "name": "S7-1500",
+        "x": 120,
+        "y": 80,
+        "wires": [
+            [
+                "85ad884c8e90b835"
+            ]
+        ]
+    },
+    {
+        "id": "db981e484a7ab8c0",
+        "type": "debug",
+        "z": "d8fa57a5ef9491a4",
+        "name": "debug 37",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1880,
+        "y": 80,
+        "wires": []
+    },
+    {
+        "id": "85ad884c8e90b835",
+        "type": "function",
+        "z": "d8fa57a5ef9491a4",
+        "name": "Отримання початкових значень та значень з контроллера",
+        "func": "// Отримати значення з msg.payload\nmsg.toFix = {\n    InputFEGaz: msg.payload.InputFEGaz,\n    InputFEWater: parseFloat(msg.payload.InputFEWater.toFixed(1)) ,\n    InputTESteam: msg.payload.InputTESteam,\n    InputTESmoke: msg.payload.InputTESmoke,\n    InputFESteam: parseFloat(msg.payload.InputFESteam.toFixed(1)) ,\n}\nmsg.input = { \n    ...msg.toFix,\n    Hw: 858, //ентальпія води в стані насичення (1600кПа)\n    DeltH: 1946, //Прихована теплота пароутворення,\n    Hfw: 506, // ентальпія живильної води (100 градусів)\n    Hf: 33500, // теплота згоряння Газу в кДж/м3\n    MfwMax: 50000, // максимальна витрата живильної води\n    Cf: 17.6, //вартість газу 01.2023\n    Hs: 2928, // ентальпія пара при тиску 1400кПа\n    TEWaterInput: 100, // температура води на вході в котел\n    QGaz: 9.3, //теплота згоряння Газу в кВт/м3\n    C: 0.00066853 //теплоємність перегрітої пари (1600кПа) кВт/кг * 0C\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 420,
+        "y": 80,
+        "wires": [
+            [
+                "18cb8c3c3b542f20"
+            ]
+        ]
+    },
+    {
+        "id": "0a118cb0b93709f8",
+        "type": "change",
+        "z": "d8fa57a5ef9491a4",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "globalContext.GAZ",
+                "pt": "global",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 600,
+        "y": 1040,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d82fb9c5a7f6affe",
+        "type": "function",
+        "z": "d8fa57a5ef9491a4",
+        "name": "Обчислення ККД та Навантаження",
+        "func": "// Отримати глобальний контекст\nvar globalContext = global.get('globalContext') || {};\n// Розрахунок ККД\nconst Mfw = globalContext.input.InputFEWater * 1000 //витрата живильної води \nconst Hw = globalContext.data.Hw //ентальпія води в стані насичення (1600кПа)\nconst DeltH = globalContext.data.DeltH //Прихована теплота пароутворення\nconst Hfw = globalContext.data.Hfw // ентальпія живильної води (100 градусів)\nconst Mfl = globalContext.input.InputFEGaz //витрата палива\nconst Hf = globalContext.data.Hf // калорійність палива (Газ)\nlet KKD = parseFloat(((Mfw* (Hw+0.98*DeltH-Hfw))/(Mfl*Hf) *100).toFixed(2))\n// Розрахунок навантаження\nconst MfwMax = globalContext.data.MfwMax // максимальна витрата живильноъ води\nlet LF = parseFloat((100 * (Mfw / MfwMax)).toFixed(2))\nif (LF >=100) {\n    LF = 100\n}\nif (KKD >= 100 ) {\n    KKD = 100\n}\n\nmsg.payload ={\n    KKD : KKD,\n    LF : LF\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1370,
+        "y": 1000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "17ef2db38db35816",
+        "type": "function",
+        "z": "d8fa57a5ef9491a4",
+        "name": "Send",
+        "func": "\n// Оновити значення msg.payload на об'єкт JSON\nmsg.payload = msg.data;\n// Повернути об'єкт msg для подальшого використання в потоці\n// Створити об'єкт JSON\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1590,
+        "y": 860,
+        "wires": [
+            [
+                "543f49b9eef1bd18",
+                "cad07f3ad8ef73d7"
+            ]
+        ]
+    },
+    {
+        "id": "286763d93b737c08",
+        "type": "function",
+        "z": "d8fa57a5ef9491a4",
+        "name": "Data",
+        "func": "msg.data = {\n    Hw : 858, //ентальпія води в стані насичення (1600кПа)\n    DeltH : 1946, //Прихована теплота пароутворення,\n    Hfw : 506, // ентальпія живильної води (100 градусів)\n    Hf : 35400, // калорійність палива (Газ)\n    MfwMax : 50000, // максимальна витрата живильної води\n    Cf : 17.6, //вартість газу 01.2023\n    Hs : 2928, // ентальпія пара при тиску 1400кПа\n    TEWaterInput : 100 // температура води на вході в котел\n}\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1270,
+        "y": 960,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "22c2970e282e64f6",
+        "type": "function",
+        "z": "d8fa57a5ef9491a4",
+        "name": "Забпис даних в глобальний контекст",
+        "func": "// Отримати значення з msg.payload\nvar value = msg.data;\n// Отримати глобальний контекст\nvar globalContext = global.get('globalContext') || {};\n// Зберегти значення в глобальному контексті\nglobalContext.data = value;\n// Оновити глобальний контекст\nglobal.set('globalContext', globalContext);\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1750,
+        "y": 1060,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "16a3a2f7d5e7d925",
+        "type": "function",
+        "z": "d8fa57a5ef9491a4",
+        "name": "Забпис даних в глобальний контекст",
+        "func": "// Отримати значення з msg.payload\nvar value = msg.payload;\n// Отримати глобальний контекст\nvar globalContext = global.get('globalContext') || {};\n// Зберегти значення в глобальному контексті\nglobalContext.result1 = value;\n// Оновити глобальний контекст\nglobal.set('globalContext', globalContext);\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1750,
+        "y": 1020,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a44201866abb4059",
+        "type": "http in",
+        "z": "d8fa57a5ef9491a4",
+        "name": "",
+        "url": "/test",
+        "method": "post",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 1420,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c6cd05ee2d13842e",
+        "type": "json",
+        "z": "d8fa57a5ef9491a4",
+        "name": "",
+        "property": "paylaod",
+        "action": "str",
+        "pretty": false,
+        "x": 190,
+        "y": 1320,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "543f49b9eef1bd18",
+        "type": "http response",
+        "z": "d8fa57a5ef9491a4",
+        "name": "",
+        "statusCode": "",
+        "headers": {},
+        "x": 1790,
+        "y": 860,
+        "wires": []
+    },
+    {
+        "id": "cad07f3ad8ef73d7",
+        "type": "debug",
+        "z": "d8fa57a5ef9491a4",
+        "name": "debug 39",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1780,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "43cc21f0e571c528",
+        "type": "function",
+        "z": "d8fa57a5ef9491a4",
+        "name": "Потужність котла",
+        "func": "// Отримати глобальний контекст\nvar globalContext = global.get('globalContext') || {};\n//Потужність котла МВт\nconst T2 = globalContext.input.InputTESteam // Температура виходу (пари)\nconst T1 = globalContext.data.TEWaterInput // Температура входу )води на вході\nconst FEWater = globalContext.input.InputFEWater// Витрата води\nlet Q = parseFloat((((T2 - T1) * FEWater) / 1000 * 1.16).toFixed(3)) // Формула рограхунку потужності (якщо прибрати множення на 1.16 то результат буде в ГКал)\nmsg.payload = {\n    Q: Q\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1310,
+        "y": 1080,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "54e605bd7f5f27c8",
+        "type": "debug",
+        "z": "d8fa57a5ef9491a4",
+        "name": "debug 40",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 580,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "18cb8c3c3b542f20",
+        "type": "function",
+        "z": "d8fa57a5ef9491a4",
+        "name": "Обчислення ККД та Навантаження",
+        "func": "// Розрахунок ККД\nconst Mfw = msg.input.InputFEWater * 1000 //витрата живильної води \nconst Hw = msg.input.Hw //ентальпія води в стані насичення (1600кПа)\nconst DeltH = msg.input.DeltH //Прихована теплота пароутворення\nconst Hfw = msg.input.Hfw // ентальпія живильної води (100 градусів)\nconst Mfl = msg.input.InputFEGaz //витрата палива\nconst Hf = msg.input.Hf // калорійність палива (Газ)\nlet KKD = parseFloat(((Mfw* (Hw+0.98*DeltH-Hfw))/(Mfl*Hf) *100).toFixed(2))\n// Розрахунок навантаження\nconst MfwMax = msg.input.MfwMax // максимальна витрата живильноъ води\nlet LF = parseFloat((100 * (Mfw / MfwMax)).toFixed(2))\nif (LF >=100) {\n    LF = 100\n}\nif (KKD >= 100 ) {\n    KKD = 100\n}\nmsg.result1 ={\n    KKD : KKD,\n    LoadSteamBoiller : LF\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 810,
+        "y": 80,
+        "wires": [
+            [
+                "a5eccda30780fb92",
+                "4df853c91f192aa4",
+                "c0efd85bb53d7b50"
+            ]
+        ]
+    },
+    {
+        "id": "a5eccda30780fb92",
+        "type": "function",
+        "z": "d8fa57a5ef9491a4",
+        "name": "Економічні розрахунки",
+        "func": "//розрахунок вартості 1 МДж  енергії\nconst Cf = msg.input.Cf\nconst Hf = msg.input.Hf // калорійність палива (Газ)\nconst KKD = msg.result1.KKD\nlet Ce = parseFloat(((100 * Cf)/(Hf*KKD)).toFixed(5))\n//розрахунок вартості виготовлення 1т пари\nconst Hs = msg.input.Hs //Ентальпія пари при тиску 1400кПа\nconst Hfw = msg.input.Hfw //Ентальпія живильної води\nlet Cs = parseFloat((Ce * (Hs - Hfw)).toFixed(2))\nif (Ce <= 0) {\n    Ce = 0\n}\nif (Cs <= 0) {\n    Cs = 0\n}\nmsg.result3 = {\n    Cost1MDj: Ce,\n    Cost1Ton: Cs\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1130,
+        "y": 80,
+        "wires": [
+            [
+                "bf9746bd8aceb0fa"
+            ]
+        ]
+    },
+    {
+        "id": "c0efd85bb53d7b50",
+        "type": "function",
+        "z": "d8fa57a5ef9491a4",
+        "name": "Потужність котла",
+        "func": "//Потужність котла МВт\nconst T2 = msg.input.InputTESteam // Температура виходу (пари)\nconst T1 = msg.input.TEWaterInput // Температура входу (води на вході)\nconst FEWater = msg.input.InputFEWater// Витрата води\nlet Q = parseFloat((((T2 - T1) * FEWater) / 1000 * 1.16).toFixed(3)) // Формула рограхунку потужності (якщо прибрати множення на 1.16 то результат буде в ГКал)\nmsg.result4 = {\n    PowerSteamboiller: Q\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 120,
+        "wires": [
+            [
+                "bf9746bd8aceb0fa"
+            ]
+        ]
+    },
+    {
+        "id": "2cbbca08b9c994f7",
+        "type": "inject",
+        "z": "d8fa57a5ef9491a4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 360,
+        "y": 1500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "7a14888eae91eca7",
+        "type": "inject",
+        "z": "d8fa57a5ef9491a4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{\"a\":1,\"b\":2}",
+        "payloadType": "json",
+        "x": 350,
+        "y": 1540,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "946f64b7b33caae8",
+        "type": "redis-command",
+        "z": "d8fa57a5ef9491a4",
+        "server": "cb22cac59ce2c2be",
+        "command": "SET",
+        "name": "",
+        "topic": "",
+        "params": "{}",
+        "paramsType": "json",
+        "payloadType": "json",
+        "block": false,
+        "x": 400,
+        "y": 1160,
+        "wires": [
+            [
+                "54e605bd7f5f27c8"
+            ]
+        ]
+    },
+    {
+        "id": "b807ab20c0860537",
+        "type": "inject",
+        "z": "d8fa57a5ef9491a4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "myHash",
+        "payload": "{\"a\":1,\"b\":2}",
+        "payloadType": "json",
+        "x": 210,
+        "y": 1220,
+        "wires": [
+            [
+                "946f64b7b33caae8"
+            ]
+        ]
+    },
+    {
+        "id": "92b759413d6fa830",
+        "type": "redis-command",
+        "z": "d8fa57a5ef9491a4",
+        "server": "cb22cac59ce2c2be",
+        "command": "hmset",
+        "name": "",
+        "topic": "",
+        "params": "[]",
+        "paramsType": "json",
+        "payloadType": "json",
+        "block": false,
+        "x": 390,
+        "y": 1380,
+        "wires": [
+            [
+                "f68c7d7aea994859"
+            ]
+        ]
+    },
+    {
+        "id": "7ba2f514d997bef4",
+        "type": "inject",
+        "z": "d8fa57a5ef9491a4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "myHash",
+        "payload": "{\"a\":1,\"b\":2}",
+        "payloadType": "json",
+        "x": 190,
+        "y": 1380,
+        "wires": [
+            [
+                "92b759413d6fa830"
+            ]
+        ]
+    },
+    {
+        "id": "f68c7d7aea994859",
+        "type": "debug",
+        "z": "d8fa57a5ef9491a4",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "x": 670,
+        "y": 1380,
+        "wires": []
+    },
+    {
+        "id": "bf9746bd8aceb0fa",
+        "type": "function",
+        "z": "d8fa57a5ef9491a4",
+        "name": "Формування об'єкту для IfluxDB",
+        "func": "msg.data = { ...msg.toFix, ...msg.result1, ...msg.result2, ...msg.result3, ...msg.result4 };\nlet data ={\n  measurement: 'SteamBoiler',\n\n  fields: msg.data,\n  timestamp: new Date().getTime()\n}\n\nmsg.payload = {\n    bucket:'EnergyEfficientSteamBioler',\n    precision: 'ms',\n    data,\n};\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1440,
+        "y": 80,
+        "wires": [
+            [
+                "6d0b7bc555595b1e",
+                "38ddfe03c711a4c7"
+            ]
+        ]
+    },
+    {
+        "id": "6d0b7bc555595b1e",
+        "type": "Stackhero-InfluxDB-v2-write",
+        "z": "d8fa57a5ef9491a4",
+        "server": "2d94b6f010474707",
+        "name": "InfluxDBwrite",
+        "x": 1710,
+        "y": 80,
+        "wires": [
+            [
+                "db981e484a7ab8c0"
+            ]
+        ]
+    },
+    {
+        "id": "38ddfe03c711a4c7",
+        "type": "debug",
+        "z": "d8fa57a5ef9491a4",
+        "name": "debug 42",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1720,
+        "y": 140,
+        "wires": []
+    },
+    {
+        "id": "efcefdcae68cbe07",
+        "type": "inject",
+        "z": "d8fa57a5ef9491a4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 220,
+        "y": 560,
+        "wires": [
+            [
+                "c0f6db92f44e9798"
+            ]
+        ]
+    },
+    {
+        "id": "921b30628919af55",
+        "type": "debug",
+        "z": "d8fa57a5ef9491a4",
+        "name": "debug 43",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "d4f7f2471b3b4f2a",
+        "type": "influxdb in",
+        "z": "d8fa57a5ef9491a4",
+        "influxdb": "48659a7502deef5d",
+        "name": "Flux запит",
+        "query": "from(bucket: \"EnergyEfficientSteamBioler\")\n    |> range(start: -15m)\n    |> filter(fn: (r) => r._field == \"InputFEWater\" or r._field == \"InputFESteam\" or r._field == \"InputFEGaz\" or r._field == \"LoadSteamBoiller\" or r._field == \"KKD\")\n    |> group(columns: [\"_field\"])\n    |> aggregateWindow(every: 1m, fn: last, createEmpty: false)",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "cce5e39002b2a1a2",
+        "x": 370,
+        "y": 200,
+        "wires": [
+            [
+                "d019624bdf872d89"
+            ]
+        ]
+    },
+    {
+        "id": "3366a262a6042277",
+        "type": "http in",
+        "z": "d8fa57a5ef9491a4",
+        "name": "",
+        "url": "/DataPer1min",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 200,
+        "wires": [
+            [
+                "d4f7f2471b3b4f2a"
+            ]
+        ]
+    },
+    {
+        "id": "0dd1d9b90a3aedae",
+        "type": "http response",
+        "z": "d8fa57a5ef9491a4",
+        "name": "Bubble.io",
+        "statusCode": "",
+        "headers": {},
+        "x": 1100,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "8868f5529cd357e9",
+        "type": "debug",
+        "z": "d8fa57a5ef9491a4",
+        "name": "debug 44",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 760,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "d019624bdf872d89",
+        "type": "function",
+        "z": "d8fa57a5ef9491a4",
+        "name": "Обробка масивів та форм. вихідного повідомлення",
+        "func": "//функція пошуку в масивах елементів с полями які містять ключі\nfunction filterAndMapData(field) {\n    return msg.payload\n        .filter(function (item) {\n            return item._field === field;\n        })\n        .map(function (item) {\n            return {\n                _value: item._value,\n                _field: item._field,\n                _time: item._time,\n                _timeNOW: new Date().toISOString(),\n            };\n        });\n}\n\n/*let inputFEWater = filterAndMapData(\"InputFEWater\");\nlet inputFESteam = filterAndMapData(\"InputFESteam\");\nlet inputFEGaz = filterAndMapData(\"InputFEGaz\");\nlet inputLoad = filterAndMapData(\"MfwMax\");\n*/\n\nmsg.payload = {\n    'FEWater': filterAndMapData(\"InputFEWater\"),\n    'FESteam': filterAndMapData(\"InputFESteam\"),\n    'FEGaz': filterAndMapData(\"InputFEGaz\"),\n    'Load': filterAndMapData(\"LoadSteamBoiller\")\n};\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 200,
+        "wires": [
+            [
+                "0dd1d9b90a3aedae",
+                "921b30628919af55"
+            ]
+        ]
+    },
+    {
+        "id": "1bebf4e2a14e574b",
+        "type": "debug",
+        "z": "d8fa57a5ef9491a4",
+        "name": "debug 46",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 320,
+        "wires": []
+    },
+    {
+        "id": "fcfc48c40b0c6dc1",
+        "type": "http in",
+        "z": "d8fa57a5ef9491a4",
+        "name": "",
+        "url": "/DataPer5min",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 280,
+        "wires": [
+            [
+                "b45530adba740958"
+            ]
+        ]
+    },
+    {
+        "id": "1aa31f79e08a0725",
+        "type": "http response",
+        "z": "d8fa57a5ef9491a4",
+        "name": "Bubble.io",
+        "statusCode": "",
+        "headers": {},
+        "x": 1100,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "b45530adba740958",
+        "type": "influxdb in",
+        "z": "d8fa57a5ef9491a4",
+        "influxdb": "48659a7502deef5d",
+        "name": "Flux запит",
+        "query": "from(bucket: \"EnergyEfficientSteamBioler\")\n    |> range(start: -1h)\n    |> filter(fn: (r) => r._field == \"InputFEWater\" or r._field == \"InputFESteam\" or r._field == \"InputFEGaz\" or r._field == \"LoadSteamBoiller\")\n    |> group(columns: [\"_field\"])\n    |> aggregateWindow(every: 5m, fn: last, createEmpty: false)",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "cce5e39002b2a1a2",
+        "x": 370,
+        "y": 280,
+        "wires": [
+            [
+                "0721681016754134"
+            ]
+        ]
+    },
+    {
+        "id": "0721681016754134",
+        "type": "function",
+        "z": "d8fa57a5ef9491a4",
+        "name": "Обробка масивів та форм. вихідного повідомлення",
+        "func": "//функція пошуку в масивах елементів с полями які містять ключі\nfunction filterAndMapData(field) {\n    return msg.payload\n        .filter(function (item) {\n            return item._field === field;\n        })\n        .map(function (item) {\n            return {\n                _value: item._value,\n                _field: item._field,\n                _time: item._time,\n                _timeNOW: new Date().toISOString(),\n            };\n        });\n}\n\nmsg.payload = {\n    'FEWater': filterAndMapData(\"InputFEWater\"),\n    'FESteam': filterAndMapData(\"InputFESteam\"),\n    'FEGaz': filterAndMapData(\"InputFEGaz\"),\n    'Load': filterAndMapData(\"LoadSteamBoiller\")\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 280,
+        "wires": [
+            [
+                "1aa31f79e08a0725",
+                "1bebf4e2a14e574b"
+            ]
+        ]
+    },
+    {
+        "id": "8291ba581fc9d111",
+        "type": "http in",
+        "z": "d8fa57a5ef9491a4",
+        "name": "",
+        "url": "/DataPer1min",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 210,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5d4b8e87ad051fb9",
+        "type": "http response",
+        "z": "d8fa57a5ef9491a4",
+        "name": "Bubble.io",
+        "statusCode": "",
+        "headers": {},
+        "x": 760,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "e7383384e317c54e",
+        "type": "function",
+        "z": "d8fa57a5ef9491a4",
+        "name": "Обробка масивів",
+        "func": "//функція пошуку в масивах елементів с полями які містять ключі\nfunction filterAndMapData(field) {\n    return msg.payload\n        .filter(function (item) {\n            return item._field === field;\n        })\n        .map(function (item) {\n            return {\n                _value: item._value,\n                _field: item._field,\n                _time: item._time,\n                _timeNOW: new Date().toISOString(),\n            };\n        });\n}\n\nlet inputFEWater = filterAndMapData(\"InputFEWater\");\nlet inputFESteam = filterAndMapData(\"InputFESteam\");\nlet inputFEGaz = filterAndMapData(\"InputFEGaz\");\nlet inputLoad = filterAndMapData(\"MfwMax\");\n//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<Запис в глоба контекст>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>..\nmsg.payload = {\n    'FEWater': inputFEWater,\n    'FESteam': inputFESteam,\n    'FEGaz': inputFEGaz,\n    'Load': inputLoad\n};\n\nlet globalContext = global.get('globalContext') || {};\nObject.keys(msg.payload).forEach(key => {\n    if (msg.payload[key].length !== 0) {\n        globalContext.payload[key] = msg.payload[key];\n    }\n});\nglobal.set('globalContext', globalContext);\n\n\n\n// test>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>\nfunction duplicateLastItem() {\n    const lastKey = Object.keys(msg.payload.FEWater).length - 1;\n    const lastItem = msg.payload.FEWater[lastKey];\n    const newKey = lastKey + 1;\n\n    msg.payload.FEWater[newKey] = { ...lastItem };\n    msg.payload.FEWater[newKey]._time = new Date().toISOString();\n    msg.payload.FEWater[newKey]._timeNOW = new Date().toISOString();\n}\n\nfunction removeFirstItemAndShift() {\n    const keys = Object.keys(msg.payload.FEWater);\n    \n    if (keys.length > 15) {\n        // Створюємо новий масив без першого елемента\n        const newFEWater = {};\n        for (let i = 1; i < keys.length; i++) {\n            newFEWater[i - 1] = msg.payload.FEWater[i];\n        }\n\n        // Замінюємо msg.payload.FEWater новим масивом\n        msg.payload.FEWater = newFEWater;\n    } else {\n        // Якщо елементів менше двох, просто видаляємо перший елемент\n        delete msg.payload.FEWater[keys[0]];\n    }\n}\n\n\n\nif (new Date().getTime() - new Date(inputFEWater[inputFEWater.length - 1]._time).getTime() > 60000)\n{\n  // Викликаємо функції\n  duplicateLastItem();\n  removeFirstItemAndShift(); \n}\n\n\n\n/*if (inputFEWater.length === 0 || inputFEWater[inputFEWater.length - 1]._timeN < new Date().toISOString()) {\n   // Викликаємо функції\nduplicateLastItem();\nremoveFirstItemAndShift(); \n}*/\n\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1590,
+        "y": 960,
+        "wires": [
+            [
+                "18b5bda2d3f8e137"
+            ]
+        ]
+    },
+    {
+        "id": "c0f6db92f44e9798",
+        "type": "function",
+        "z": "d8fa57a5ef9491a4",
+        "name": "function 11",
+        "func": "\nmsg.payload = {\n    'Number': [\n        { 'val': 13, 'prop': 9, 'Date': new Date().toISOString() }, \n         {'val': 12, 'prop': 9, 'Date': new Date().toISOString() },\n        { 'val': 12, 'prop': 9, 'Date': new Date().toISOString() },\n    ],\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 410,
+        "y": 620,
+        "wires": [
+            [
+                "43b275bcaf3e185d"
+            ]
+        ]
+    },
+    {
+        "id": "8a53cf9476c61e21",
+        "type": "inject",
+        "z": "d8fa57a5ef9491a4",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 880,
+        "y": 700,
+        "wires": [
+            [
+                "3a02413971cedd3d"
+            ]
+        ]
+    },
+    {
+        "id": "105627095a916157",
+        "type": "debug",
+        "z": "d8fa57a5ef9491a4",
+        "name": "debug 47",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1220,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "3a02413971cedd3d",
+        "type": "function",
+        "z": "d8fa57a5ef9491a4",
+        "name": "function 12",
+        "func": "// Ваш початковий об'єкт\nmsg.payload = {\n    'Number': {\n        0: { 'val': 12, 'prop': 9, 'Date': new Date().toISOString() }, \n        1: { 'val': 12, 'prop': 9, 'Date': new Date().toISOString() },\n        2: { 'val': 10, 'prop': 5, 'Date': new Date().toISOString() },\n    }\n};\n\n// Додаткова функція для копіювання та додавання останнього елемента\nfunction duplicateLastItem() {\n    const lastKey = Object.keys(msg.payload.Number).length - 1;\n    const lastItem = msg.payload.Number[lastKey];\n    const newKey = lastKey + 1;\n\n    msg.payload.Number[newKey] = { ...lastItem };\n    msg.payload.Number[newKey].Date = new Date().toISOString();\n}\n\n// Логіка для видалення першого елемента та зсуву інших елементів\nfunction removeFirstItemAndShift() {\n    const keys = Object.keys(msg.payload.Number);\n    \n    if (keys.length > 3) {\n        // Знаходимо перший ключ об'єкта та видаляємо його\n        const firstKey = keys[0];\n        delete msg.payload.Number[firstKey];\n\n        // Зсуваємо індекси інших елементів\n        for (let i = 0; i < keys.length - 1; i++) {\n            msg.payload.Number[i] = msg.payload.Number[i + 1];\n        }\n\n        // Видаляємо останній (зайвий) елемент, щоб уникнути дублювання\n        delete msg.payload.Number[keys.length - 1];\n    }\n}\n\n// Викликаємо функції\nduplicateLastItem();\nremoveFirstItemAndShift();\n\n// Повертаємо змінений об'єкт\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1050,
+        "y": 700,
+        "wires": [
+            [
+                "105627095a916157"
+            ]
+        ]
+    },
+    {
+        "id": "18b5bda2d3f8e137",
+        "type": "debug",
+        "z": "d8fa57a5ef9491a4",
+        "name": "debug 48",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1760,
+        "y": 960,
+        "wires": []
+    },
+    {
+        "id": "b8aab50a663e6c15",
+        "type": "influxdb in",
+        "z": "d8fa57a5ef9491a4",
+        "influxdb": "48659a7502deef5d",
+        "name": "Flux запит",
+        "query": "from(bucket: \"EnergyEfficientSteamBioler\")\n    |> range(start: -8h)\n    |> filter(fn: (r) => r._field == \"InputFEWater\" or r._field == \"InputFESteam\" or r._field == \"InputFEGaz\" or r._field == \"MfwMax\")\n    |> group(columns: [\"_field\"])\n    |> limit(n: 15)\n    ",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "cce5e39002b2a1a2",
+        "x": 1470,
+        "y": 600,
+        "wires": [
+            [
+                "633bf58b7b3813af"
+            ]
+        ]
+    },
+    {
+        "id": "633bf58b7b3813af",
+        "type": "debug",
+        "z": "d8fa57a5ef9491a4",
+        "name": "debug 49",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1640,
+        "y": 600,
+        "wires": []
+    },
+    {
+        "id": "43b275bcaf3e185d",
+        "type": "json",
+        "z": "d8fa57a5ef9491a4",
+        "name": "",
+        "property": "payload",
+        "action": "str",
+        "pretty": false,
+        "x": 590,
+        "y": 620,
+        "wires": [
+            [
+                "5d4b8e87ad051fb9",
+                "8868f5529cd357e9"
+            ]
+        ]
+    },
+    {
+        "id": "4df853c91f192aa4",
+        "type": "function",
+        "z": "d8fa57a5ef9491a4",
+        "name": "Повне енергоспоживання",
+        "func": "const Mi = msg.input.QGaz * msg.input.InputFEGaz //теплота згоряння Газу в кВт/год\nconst Ri = msg.result1.KKD // ККД котла\nconst PQ = msg.input.InputFESteam// Витрата води\nlet e = parseFloat(((Mi * Ri) / PQ) .toFixed(2))// повне енергоспоживання в кВт/т\nmsg.result2 = {\n    FullEnergyConsume: e\n}\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1140,
+        "y": 40,
+        "wires": [
+            [
+                "bf9746bd8aceb0fa"
+            ]
+        ]
+    }
+]
