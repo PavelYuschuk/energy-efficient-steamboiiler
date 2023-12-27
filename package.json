@@ -4,7 +4,8 @@
     "version": "0.0.1",
     "dependencies": {
         "node-red-contrib-influxdb": "0.6.1",
-        "node-red-contrib-s7": "3.1.0"
+        "node-red-contrib-s7": "3.1.0",
+        "node-red-contrib-stackhero-influxdb-v2": "1.0.4"
     },
     "node-red": {
         "settings": {
