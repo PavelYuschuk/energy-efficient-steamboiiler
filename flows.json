@@ -8,272 +8,12 @@
         "env": []
     },
     {
-        "id": "af661f16324bb891",
-        "type": "tab",
-        "label": "Flow 2",
-        "disabled": false,
-        "info": "",
-        "env": []
-    },
-    {
-        "id": "e0bf14c2f6cbbb41",
-        "type": "ui_base",
-        "theme": {
-            "name": "theme-light",
-            "lightTheme": {
-                "default": "#0094CE",
-                "baseColor": "#0094CE",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": true,
-                "reset": false
-            },
-            "darkTheme": {
-                "default": "#097479",
-                "baseColor": "#097479",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
-                "edited": true,
-                "reset": false
-            },
-            "customTheme": {
-                "name": "Untitled Theme 1",
-                "default": "#4B7930",
-                "baseColor": "#4B7930",
-                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-            },
-            "themeState": {
-                "base-color": {
-                    "default": "#0094CE",
-                    "value": "#0094CE",
-                    "edited": true
-                },
-                "page-titlebar-backgroundColor": {
-                    "value": "#0094CE",
-                    "edited": false
-                },
-                "page-backgroundColor": {
-                    "value": "#fafafa",
-                    "edited": false
-                },
-                "page-sidebar-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-textColor": {
-                    "value": "#1bbfff",
-                    "edited": false
-                },
-                "group-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "group-backgroundColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "widget-textColor": {
-                    "value": "#111111",
-                    "edited": false
-                },
-                "widget-backgroundColor": {
-                    "value": "#0094ce",
-                    "edited": false
-                },
-                "widget-borderColor": {
-                    "value": "#ffffff",
-                    "edited": false
-                },
-                "base-font": {
-                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
-                }
-            },
-            "angularTheme": {
-                "primary": "indigo",
-                "accents": "blue",
-                "warn": "red",
-                "background": "grey",
-                "palette": "light"
-            }
-        },
-        "site": {
-            "name": "Node-RED Dashboard",
-            "hideToolbar": "false",
-            "allowSwipe": "false",
-            "lockMenu": "false",
-            "allowTempTheme": "true",
-            "dateFormat": "DD/MM/YYYY",
-            "sizes": {
-                "sx": 48,
-                "sy": 48,
-                "gx": 6,
-                "gy": 6,
-                "cx": 6,
-                "cy": 6,
-                "px": 0,
-                "py": 0
-            }
-        }
-    },
-    {
-        "id": "9070157da237643d",
-        "type": "ui_tab",
-        "name": "Володько Станіслав",
-        "icon": "dashboard",
-        "order": 1,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "81c64499b62dcbc7",
-        "type": "ui_tab",
-        "name": "Володько Станіслав2",
-        "icon": "dashboard",
-        "order": 2,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "b0fe1aeee5fbf23d",
-        "type": "ui_group",
-        "name": "Закладка 2",
-        "tab": "81c64499b62dcbc7",
-        "order": 1,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "ea499d3ceedbc31e",
-        "type": "ui_group",
-        "name": "Закладка 1",
-        "tab": "9070157da237643d",
-        "order": 1,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "bd54b47d44b42a5c",
-        "type": "mqtt-broker",
-        "name": "mosquitto",
-        "broker": "http://test.mosquitto.org",
-        "port": "1883",
-        "clientid": "",
-        "autoConnect": true,
-        "usetls": false,
-        "protocolVersion": "4",
-        "keepalive": "60",
-        "cleansession": true,
-        "autoUnsubscribe": true,
-        "birthTopic": "",
-        "birthQos": "0",
-        "birthPayload": "",
-        "birthMsg": {},
-        "closeTopic": "",
-        "closeQos": "0",
-        "closePayload": "",
-        "closeMsg": {},
-        "willTopic": "",
-        "willQos": "0",
-        "willPayload": "",
-        "willMsg": {},
-        "userProps": "",
-        "sessionExpiry": ""
-    },
-    {
-        "id": "80c28775dacd52dc",
-        "type": "websocket-listener",
-        "path": "/",
-        "wholemsg": "false"
-    },
-    {
-        "id": "f3a1a9fa2903623c",
-        "type": "gauth",
-        "name": "rpi-service-account@rpi3-385913.iam.gserviceaccount.com"
-    },
-    {
         "id": "2d94b6f010474707",
         "type": "Stackhero-InfluxDB-v2-Server",
         "name": "",
         "host": "eu-central-1-1.aws.cloud2.influxdata.com",
         "port": "443",
         "tls": true
-    },
-    {
-        "id": "1f4c855ec4b0bc57",
-        "type": "ui_tab",
-        "name": "BrandMBE",
-        "icon": "dashboard",
-        "order": 3,
-        "disabled": false,
-        "hidden": false
-    },
-    {
-        "id": "58c48080f93563cb",
-        "type": "ui_group",
-        "name": "Дата",
-        "tab": "1f4c855ec4b0bc57",
-        "order": 1,
-        "disp": true,
-        "width": 15,
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "4a5e1c9a8f82532c",
-        "type": "ui_group",
-        "name": "Лояльність",
-        "tab": "1f4c855ec4b0bc57",
-        "order": 3,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "a7487ec3dac9f9bb",
-        "type": "ui_group",
-        "name": "Якість",
-        "tab": "1f4c855ec4b0bc57",
-        "order": 4,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "3ba998ed2014a277",
-        "type": "ui_group",
-        "name": "",
-        "tab": "1f4c855ec4b0bc57",
-        "order": 5,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "65c7fba358b16418",
-        "type": "ui_group",
-        "name": "",
-        "tab": "1f4c855ec4b0bc57",
-        "order": 6,
-        "disp": true,
-        "width": "6",
-        "collapse": false,
-        "className": ""
-    },
-    {
-        "id": "3a278ce11f9dbe3e",
-        "type": "ui_group",
-        "name": "Графік",
-        "tab": "1f4c855ec4b0bc57",
-        "order": 2,
-        "disp": true,
-        "width": 15,
-        "collapse": false,
-        "className": ""
     },
     {
         "id": "bfe8a18b184b8951",
@@ -299,61 +39,6 @@
         "useselfsignedcertificate": false,
         "sslterminated": false,
         "verboselogging": false
-    },
-    {
-        "id": "4def1c2a99ec00dd",
-        "type": "telegram bot",
-        "botname": "t.me/Lab4_Zimenko_bot",
-        "usernames": "",
-        "chatids": "",
-        "baseapiurl": "",
-        "updatemode": "polling",
-        "pollinterval": "300",
-        "usesocks": false,
-        "sockshost": "",
-        "socksprotocol": "socks5",
-        "socksport": "6667",
-        "socksusername": "anonymous",
-        "sockspassword": "",
-        "bothost": "",
-        "botpath": "",
-        "localbotport": "8443",
-        "publicbotport": "8443",
-        "privatekey": "",
-        "certificate": "",
-        "useselfsignedcertificate": false,
-        "sslterminated": false,
-        "verboselogging": false
-    },
-    {
-        "id": "174cfcf56140dded",
-        "type": "telegram bot",
-        "botname": "https://t.me/speresenko_lab5_bot",
-        "usernames": "",
-        "chatids": "",
-        "baseapiurl": "",
-        "updatemode": "polling",
-        "pollinterval": "300",
-        "usesocks": false,
-        "sockshost": "",
-        "socksprotocol": "socks5",
-        "socksport": "6667",
-        "socksusername": "anonymous",
-        "sockspassword": "",
-        "bothost": "",
-        "botpath": "",
-        "localbotport": "8443",
-        "publicbotport": "8443",
-        "privatekey": "",
-        "certificate": "",
-        "useselfsignedcertificate": false,
-        "sslterminated": false,
-        "verboselogging": false
-    },
-    {
-        "id": "ceb5e8512ca93bef",
-        "type": "gauth",
-        "name": "rpi-service-account-69@rpi3-385913.iam.gserviceaccount.com"
     },
     {
         "id": "fcb39804f01887c9",
@@ -397,86 +82,6 @@
         ]
     },
     {
-        "id": "77f058b7f8dabfa6",
-        "type": "OpcUa-Endpoint",
-        "endpoint": "opc.tcp://DESKTOP-VERH6A8:48010",
-        "secpol": "None",
-        "secmode": "NONE",
-        "login": false
-    },
-    {
-        "id": "b1a17ac6171faba5",
-        "type": "OpcUa-Endpoint",
-        "endpoint": "opc.tcp://2017-PC:48010",
-        "secpol": "None",
-        "secmode": "NONE",
-        "login": false
-    },
-    {
-        "id": "2004fe318454697c",
-        "type": "OpcUa-Endpoint",
-        "endpoint": "opc.tcp://DESKTOP-RFV59RT:48010",
-        "secpol": "None",
-        "secmode": "None",
-        "login": false
-    },
-    {
-        "id": "1ba277000d88d77e",
-        "type": "OpcUa-Endpoint",
-        "endpoint": "opc.tcp://opcuaserver.com:48010",
-        "secpol": "None",
-        "secmode": "None",
-        "login": false
-    },
-    {
-        "id": "6b57973f.33e008",
-        "type": "OpcUa-Endpoint",
-        "endpoint": "opc.tcp://DESKTOP-IAH5H3K:48010",
-        "secpol": "None",
-        "secmode": "NONE",
-        "login": false
-    },
-    {
-        "id": "a0fd9d14bb4c69ce",
-        "type": "OpcUa-Endpoint",
-        "endpoint": "127.0.0.1:48010",
-        "secpol": "None",
-        "secmode": "NONE",
-        "login": false
-    },
-    {
-        "id": "29b7977e73325c8e",
-        "type": "OpcUa-Endpoint",
-        "endpoint": "opc.tcp://DESKTOP-VEYH6T8:48010",
-        "secpol": "None",
-        "secmode": "NONE",
-        "login": false
-    },
-    {
-        "id": "cb22cac59ce2c2be",
-        "type": "redis-config",
-        "name": "Redis",
-        "options": "{\"test\":1}",
-        "cluster": false,
-        "optionsType": "json"
-    },
-    {
-        "id": "a0efbb89.5e42d8",
-        "type": "redis-config",
-        "name": "local",
-        "options": "{}",
-        "cluster": false,
-        "optionsType": "json"
-    },
-    {
-        "id": "58eb1167da00805f",
-        "type": "Stackhero-InfluxDB-v2-Server",
-        "name": "read",
-        "host": "eu-central-1-1.aws.cloud2.influxdata.com",
-        "port": "443",
-        "tls": true
-    },
-    {
         "id": "48659a7502deef5d",
         "type": "influxdb",
         "hostname": "127.0.0.1",
@@ -499,23 +104,10 @@
         "database": "database",
         "name": "test 1.8 flux",
         "usetls": false,
-        "tls": "d50d0c9f.31e858",
+        "tls": "",
         "influxdbVersion": "1.8-flux",
         "url": "https://localhost:8086",
         "rejectUnauthorized": false
-    },
-    {
-        "id": "d50d0c9f.31e858",
-        "type": "tls-config",
-        "name": "",
-        "cert": "",
-        "key": "",
-        "ca": "",
-        "certname": "",
-        "keyname": "",
-        "caname": "",
-        "servername": "",
-        "verifyservercert": false
     },
     {
         "id": "6ca8bde.9eb2f44",
@@ -526,20 +118,8 @@
         "database": "new_db",
         "name": "",
         "usetls": true,
-        "tls": "f7f39f4e.896ae",
+        "tls": "",
         "influxdbVersion": "1.x"
-    },
-    {
-        "id": "f7f39f4e.896ae",
-        "type": "tls-config",
-        "name": "local-tls",
-        "cert": "",
-        "key": "",
-        "ca": "",
-        "certname": "",
-        "keyname": "",
-        "caname": "",
-        "verifyservercert": false
     },
     {
         "id": "1b645d3a82da0d5f",
@@ -549,45 +129,6 @@
         "port": "502",
         "unit_id": "1",
         "reconnecttimeout": "1000"
-    },
-    {
-        "id": "079ca4291efacc98",
-        "type": "mqtt-broker",
-        "name": "",
-        "broker": "test.mosquitto.org",
-        "port": "1883",
-        "clientid": "volodkoClient1",
-        "autoConnect": true,
-        "usetls": false,
-        "protocolVersion": "4",
-        "keepalive": "60",
-        "cleansession": false,
-        "autoUnsubscribe": true,
-        "birthTopic": "volodko/client1/status",
-        "birthQos": "1",
-        "birthRetain": "true",
-        "birthPayload": "online",
-        "birthMsg": {},
-        "closeTopic": "volodko/client1/status",
-        "closeQos": "1",
-        "closeRetain": "true",
-        "closePayload": "offline",
-        "closeMsg": {},
-        "willTopic": "volodko/client1/status",
-        "willQos": "1",
-        "willRetain": "true",
-        "willPayload": "offline (break)",
-        "willMsg": {},
-        "userProps": "",
-        "sessionExpiry": ""
-    },
-    {
-        "id": "5a8244e6c7c10971",
-        "type": "Stackhero-InfluxDB-v2-Server",
-        "name": "",
-        "host": "us-east-1-1.aws.cloud2.influxdata.com",
-        "port": "443",
-        "tls": true
     },
     {
         "id": "b8bf539fa6572564",
@@ -661,35 +202,6 @@
         "y": 1040,
         "wires": [
             []
-        ]
-    },
-    {
-        "id": "31611acf85c4884b",
-        "type": "inject",
-        "z": "d8fa57a5ef9491a4",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "tets",
-        "payload": "{\"test\": 1}",
-        "payloadType": "json",
-        "x": 190,
-        "y": 1140,
-        "wires": [
-            [
-                "946f64b7b33caae8"
-            ]
         ]
     },
     {
@@ -891,20 +403,6 @@
         ]
     },
     {
-        "id": "c6cd05ee2d13842e",
-        "type": "json",
-        "z": "d8fa57a5ef9491a4",
-        "name": "",
-        "property": "paylaod",
-        "action": "str",
-        "pretty": false,
-        "x": 190,
-        "y": 1320,
-        "wires": [
-            []
-        ]
-    },
-    {
         "id": "543f49b9eef1bd18",
         "type": "http response",
         "z": "d8fa57a5ef9491a4",
@@ -949,23 +447,6 @@
         "wires": [
             []
         ]
-    },
-    {
-        "id": "54e605bd7f5f27c8",
-        "type": "debug",
-        "z": "d8fa57a5ef9491a4",
-        "name": "debug 40",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "payload",
-        "targetType": "msg",
-        "statusVal": "",
-        "statusType": "auto",
-        "x": 580,
-        "y": 1160,
-        "wires": []
     },
     {
         "id": "18cb8c3c3b542f20",
@@ -1028,172 +509,6 @@
                 "bf9746bd8aceb0fa"
             ]
         ]
-    },
-    {
-        "id": "2cbbca08b9c994f7",
-        "type": "inject",
-        "z": "d8fa57a5ef9491a4",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "",
-        "payloadType": "date",
-        "x": 360,
-        "y": 1500,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "7a14888eae91eca7",
-        "type": "inject",
-        "z": "d8fa57a5ef9491a4",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "",
-        "payload": "{\"a\":1,\"b\":2}",
-        "payloadType": "json",
-        "x": 350,
-        "y": 1540,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "946f64b7b33caae8",
-        "type": "redis-command",
-        "z": "d8fa57a5ef9491a4",
-        "server": "cb22cac59ce2c2be",
-        "command": "SET",
-        "name": "",
-        "topic": "",
-        "params": "{}",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 400,
-        "y": 1160,
-        "wires": [
-            [
-                "54e605bd7f5f27c8"
-            ]
-        ]
-    },
-    {
-        "id": "b807ab20c0860537",
-        "type": "inject",
-        "z": "d8fa57a5ef9491a4",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "myHash",
-        "payload": "{\"a\":1,\"b\":2}",
-        "payloadType": "json",
-        "x": 210,
-        "y": 1220,
-        "wires": [
-            [
-                "946f64b7b33caae8"
-            ]
-        ]
-    },
-    {
-        "id": "92b759413d6fa830",
-        "type": "redis-command",
-        "z": "d8fa57a5ef9491a4",
-        "server": "cb22cac59ce2c2be",
-        "command": "hmset",
-        "name": "",
-        "topic": "",
-        "params": "[]",
-        "paramsType": "json",
-        "payloadType": "json",
-        "block": false,
-        "x": 390,
-        "y": 1380,
-        "wires": [
-            [
-                "f68c7d7aea994859"
-            ]
-        ]
-    },
-    {
-        "id": "7ba2f514d997bef4",
-        "type": "inject",
-        "z": "d8fa57a5ef9491a4",
-        "name": "",
-        "props": [
-            {
-                "p": "payload"
-            },
-            {
-                "p": "topic",
-                "vt": "str"
-            }
-        ],
-        "repeat": "",
-        "crontab": "",
-        "once": false,
-        "onceDelay": 0.1,
-        "topic": "myHash",
-        "payload": "{\"a\":1,\"b\":2}",
-        "payloadType": "json",
-        "x": 190,
-        "y": 1380,
-        "wires": [
-            [
-                "92b759413d6fa830"
-            ]
-        ]
-    },
-    {
-        "id": "f68c7d7aea994859",
-        "type": "debug",
-        "z": "d8fa57a5ef9491a4",
-        "name": "",
-        "active": true,
-        "tosidebar": true,
-        "console": false,
-        "tostatus": false,
-        "complete": "false",
-        "x": 670,
-        "y": 1380,
-        "wires": []
     },
     {
         "id": "bf9746bd8aceb0fa",
