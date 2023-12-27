@@ -3,7 +3,8 @@
     "description": "Прототип програми для Iot Gateway для моніторингу енергоефективності парового котла",
     "version": "0.0.1",
     "dependencies": {
-        "node-red-contrib-influxdb": "0.6.1"
+        "node-red-contrib-influxdb": "0.6.1",
+        "node-red-contrib-s7": "3.1.0"
     },
     "node-red": {
         "settings": {
