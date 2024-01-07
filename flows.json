@@ -78,6 +78,14 @@
             {
                 "addr": "DB2,R62",
                 "name": "InputFESteam"
+            },
+            {
+                "addr": "DB2,R74",
+                "name": "InputQEO2"
+            },
+            {
+                "addr": "DB2,R80",
+                "name": "InputQECO"
             }
         ]
     },
@@ -211,8 +219,8 @@
         "name": "",
         "statusCode": "",
         "headers": {},
-        "x": 730,
-        "y": 900,
+        "x": 550,
+        "y": 920,
         "wires": []
     },
     {
@@ -222,7 +230,7 @@
         "endpoint": "fcb39804f01887c9",
         "mode": "all",
         "variable": "GAZ",
-        "diff": true,
+        "diff": false,
         "name": "S7-1500",
         "x": 120,
         "y": 80,
@@ -254,7 +262,7 @@
         "type": "function",
         "z": "d8fa57a5ef9491a4",
         "name": "Отримання початкових значень та значень з контроллера",
-        "func": "// Отримати значення з msg.payload\nmsg.toFix = {\n    InputFEGaz: msg.payload.InputFEGaz,\n    InputFEWater: parseFloat(msg.payload.InputFEWater.toFixed(1)) ,\n    InputTESteam: msg.payload.InputTESteam,\n    InputTESmoke: msg.payload.InputTESmoke,\n    InputFESteam: parseFloat(msg.payload.InputFESteam.toFixed(1)) ,\n}\nmsg.input = { \n    ...msg.toFix,\n    Hw: 858, //ентальпія води в стані насичення (1600кПа)\n    DeltH: 1946, //Прихована теплота пароутворення,\n    Hfw: 506, // ентальпія живильної води (100 градусів)\n    Hf: 33500, // теплота згоряння Газу в кДж/м3\n    MfwMax: 50000, // максимальна витрата живильної води\n    Cf: 17.6, //вартість газу 01.2023\n    Hs: 2928, // ентальпія пара при тиску 1400кПа\n    TEWaterInput: 100, // температура води на вході в котел\n    QGaz: 9.3, //теплота згоряння Газу в кВт/м3\n    C: 0.00066853 //теплоємність перегрітої пари (1600кПа) кВт/кг * 0C\n};\n\nreturn msg;\n",
+        "func": "// Отримати значення з msg.payload\nmsg.toFix = {\n    InputFEGaz: parseFloat(msg.payload.InputFEGaz.toFixed(0)),\n    InputFEWater: parseFloat(msg.payload.InputFEWater.toFixed(1)) ,\n    InputTESteam: msg.payload.InputTESteam,\n    InputTESmoke: msg.payload.InputTESmoke,\n    InputFESteam: parseFloat(msg.payload.InputFESteam.toFixed(1)) ,\n    InputQEO2: parseFloat(msg.payload.InputQEO2.toFixed(2)),\n    InputQECO: parseFloat(msg.payload.InputQECO.toFixed(2)),\n}\nmsg.input = { \n    ...msg.toFix,\n    Hw: 858, //ентальпія води в стані насичення (1600кПа)\n    DeltH: 1946, //Прихована теплота пароутворення,\n    Hfw: 506, // ентальпія живильної води (100 градусів)\n    Hf: 33500, // теплота згоряння Газу в кДж/м3\n    MfwMax: 50000, // максимальна витрата живильної води\n    Cf: 17.6, //вартість газу 01.2023\n    Hs: 2928, // ентальпія пара при тиску 1400кПа\n    TEWaterInput: 100, // температура води на вході в котел\n    QGaz: 9.3, //теплота згоряння Газу в кВт/м3\n    C: 0.00066853 //теплоємність перегрітої пари (1600кПа) кВт/кг * 0C\n};\n\nreturn msg;\n",
         "outputs": 1,
         "timeout": "",
         "noerr": 0,
@@ -267,31 +275,6 @@
             [
                 "18cb8c3c3b542f20"
             ]
-        ]
-    },
-    {
-        "id": "0a118cb0b93709f8",
-        "type": "change",
-        "z": "d8fa57a5ef9491a4",
-        "name": "",
-        "rules": [
-            {
-                "t": "set",
-                "p": "globalContext.GAZ",
-                "pt": "global",
-                "to": "payload",
-                "tot": "msg"
-            }
-        ],
-        "action": "",
-        "property": "",
-        "from": "",
-        "to": "",
-        "reg": false,
-        "x": 600,
-        "y": 1040,
-        "wires": [
-            []
         ]
     },
     {
@@ -495,7 +478,7 @@
         "type": "function",
         "z": "d8fa57a5ef9491a4",
         "name": "Потужність котла",
-        "func": "//Потужність котла МВт\nconst T2 = msg.input.InputTESteam // Температура виходу (пари)\nconst T1 = msg.input.TEWaterInput // Температура входу (води на вході)\nconst FEWater = msg.input.InputFEWater// Витрата води\nlet Q = parseFloat((((T2 - T1) * FEWater) / 1000 * 1.16).toFixed(3)) // Формула рограхунку потужності (якщо прибрати множення на 1.16 то результат буде в ГКал)\nmsg.result4 = {\n    PowerSteamboiller: Q\n}\nreturn msg;",
+        "func": "//Потужність котла МВт\nconst T2 = msg.input.InputTESteam // Температура виходу (пари)\nconst T1 = msg.input.TEWaterInput // Температура входу (води на вході)\nconst FEWater = msg.input.InputFEWater// Витрата води\nlet Q = parseFloat((((T2 - T1) * FEWater) * 1.16).toFixed(3)) // Формула рограхунку потужності кВт (якщо прибрати множення на 1.16 то результат буде в кКал)\nmsg.result4 = {\n    PowerSteamboiller: Q\n}\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -515,7 +498,7 @@
         "type": "function",
         "z": "d8fa57a5ef9491a4",
         "name": "Формування об'єкту для IfluxDB",
-        "func": "msg.data = { ...msg.toFix, ...msg.result1, ...msg.result2, ...msg.result3, ...msg.result4 };\nlet data ={\n  measurement: 'SteamBoiler',\n\n  fields: msg.data,\n  timestamp: new Date().getTime()\n}\n\nmsg.payload = {\n    bucket:'EnergyEfficientSteamBioler',\n    precision: 'ms',\n    data,\n};\nreturn msg;",
+        "func": "msg.data = { ...msg.toFix, ...msg.result1, ...msg.result2, ...msg.result3, ...msg.result4 };\nlet data ={\n  measurement: 'SteamBoiler',\n  fields: msg.data,\n  timestamp: new Date().getTime()\n}\n\nmsg.payload = {\n    bucket:'EnergyEfficientSteamBioler',\n    precision: 'ms',\n    data,\n};\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -614,7 +597,7 @@
         "z": "d8fa57a5ef9491a4",
         "influxdb": "48659a7502deef5d",
         "name": "Flux запит",
-        "query": "from(bucket: \"EnergyEfficientSteamBioler\")\n    |> range(start: -15m)\n    |> filter(fn: (r) => r._field == \"InputFEWater\" or r._field == \"InputFESteam\" or r._field == \"InputFEGaz\" or r._field == \"LoadSteamBoiller\" or r._field == \"KKD\")\n    |> group(columns: [\"_field\"])\n    |> aggregateWindow(every: 1m, fn: last, createEmpty: false)",
+        "query": "from(bucket: \"EnergyEfficientSteamBioler\")\n    |> range(start: -15m)\n    |> filter(fn: (r) => r._field == \"InputFEWater\" or r._field == \"InputFESteam\" or r._field == \"InputFEGaz\" or r._field == \"LoadSteamBoiller\" or r._field == \"KKD\" or r._field == \"FullEnergyConsume\" or r._field == \"PowerSteamboiller\")\n    |> group(columns: [\"_field\"])\n    |> aggregateWindow(every: 1m, fn: last, createEmpty: false)",
         "rawOutput": false,
         "precision": "",
         "retentionPolicy": "",
@@ -677,7 +660,7 @@
         "type": "function",
         "z": "d8fa57a5ef9491a4",
         "name": "Обробка масивів та форм. вихідного повідомлення",
-        "func": "//функція пошуку в масивах елементів с полями які містять ключі\nfunction filterAndMapData(field) {\n    return msg.payload\n        .filter(function (item) {\n            return item._field === field;\n        })\n        .map(function (item) {\n            return {\n                _value: item._value,\n                _field: item._field,\n                _time: item._time,\n                _timeNOW: new Date().toISOString(),\n            };\n        });\n}\n\n/*let inputFEWater = filterAndMapData(\"InputFEWater\");\nlet inputFESteam = filterAndMapData(\"InputFESteam\");\nlet inputFEGaz = filterAndMapData(\"InputFEGaz\");\nlet inputLoad = filterAndMapData(\"MfwMax\");\n*/\n\nmsg.payload = {\n    'FEWater': filterAndMapData(\"InputFEWater\"),\n    'FESteam': filterAndMapData(\"InputFESteam\"),\n    'FEGaz': filterAndMapData(\"InputFEGaz\"),\n    'Load': filterAndMapData(\"LoadSteamBoiller\")\n};\nreturn msg;\n",
+        "func": "//функція пошуку в масивах елементів с полями які містять ключі\nfunction filterAndMapData(field) {\n    return msg.payload\n        .filter(function (item) {\n            return item._field === field;\n        })\n        .map(function (item) {\n            return {\n                _value: item._value,\n                _field: item._field,\n                _time: item._time,\n                _timeNOW: new Date().toISOString(),\n            };\n        });\n}\n\n\nmsg.payload = {\n    'FEWater': filterAndMapData(\"InputFEWater\"),\n    'FESteam': filterAndMapData(\"InputFESteam\"),\n    'FEGaz': filterAndMapData(\"InputFEGaz\"),\n    'Load': filterAndMapData(\"LoadSteamBoiller\"),\n    'KKD': filterAndMapData(\"KKD\"),\n    'FullEnergyConsume': filterAndMapData(\"FullEnergyConsume\"),\n    'PowerSteamboiller': filterAndMapData(\"PowerSteamboiller\"),\n    'InputQEO2': filterAndMapData(\"InputQEO2\"),\n    'InputQECO': filterAndMapData(\"InputQECO\"),\n};\nreturn msg;\n",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -744,7 +727,7 @@
         "z": "d8fa57a5ef9491a4",
         "influxdb": "48659a7502deef5d",
         "name": "Flux запит",
-        "query": "from(bucket: \"EnergyEfficientSteamBioler\")\n    |> range(start: -1h)\n    |> filter(fn: (r) => r._field == \"InputFEWater\" or r._field == \"InputFESteam\" or r._field == \"InputFEGaz\" or r._field == \"LoadSteamBoiller\")\n    |> group(columns: [\"_field\"])\n    |> aggregateWindow(every: 5m, fn: last, createEmpty: false)",
+        "query": "from(bucket: \"EnergyEfficientSteamBioler\")\n    |> range(start: -1h)\n    |> filter(fn: (r) => r._field == \"InputFEWater\" or r._field == \"InputFESteam\" or r._field == \"InputFEGaz\" or r._field == \"LoadSteamBoiller\" or r._field == \"KKD\" or r._field == \"FullEnergyConsume\" or r._field == \"PowerSteamboiller\")\n    |> group(columns: [\"_field\"])\n    |> aggregateWindow(every: 5m, fn: last, createEmpty: false)",
         "rawOutput": false,
         "precision": "",
         "retentionPolicy": "",
@@ -819,9 +802,7 @@
         "x": 1590,
         "y": 960,
         "wires": [
-            [
-                "18b5bda2d3f8e137"
-            ]
+            []
         ]
     },
     {
@@ -865,11 +846,11 @@
         "topic": "",
         "payload": "",
         "payloadType": "date",
-        "x": 220,
-        "y": 680,
+        "x": 180,
+        "y": 440,
         "wires": [
             [
-                "3a02413971cedd3d"
+                "52ddd454670468c4"
             ]
         ]
     },
@@ -917,11 +898,12 @@
         "tosidebar": true,
         "console": false,
         "tostatus": false,
-        "complete": "false",
+        "complete": "true",
+        "targetType": "full",
         "statusVal": "",
         "statusType": "auto",
-        "x": 1760,
-        "y": 960,
+        "x": 1380,
+        "y": 40,
         "wires": []
     },
     {
@@ -981,7 +963,7 @@
         "type": "function",
         "z": "d8fa57a5ef9491a4",
         "name": "Повне енергоспоживання",
-        "func": "const Mi = msg.input.QGaz * msg.input.InputFEGaz //теплота згоряння Газу в кВт/год\nconst Ri = msg.result1.KKD // ККД котла\nconst PQ = msg.input.InputFESteam// Витрата води\nlet e = parseFloat(((Mi * Ri) / PQ) .toFixed(2))// повне енергоспоживання в кВт/т\nmsg.result2 = {\n    FullEnergyConsume: e\n}\nreturn msg;",
+        "func": "const Mi = msg.input.QGaz * msg.input.InputFEGaz //теплота згоряння Газу в кВт/год\nconst Ri = msg.result1.KKD / 100 // ККД котла (коефіцієнт)\nconst PQ = msg.input.InputFESteam// Витрата води\nlet e = parseFloat(((Mi * Ri) / PQ) .toFixed(2))// повне енергоспоживання в кВт/год\nmsg.result2 = {\n    FullEnergyConsume: e\n}\nreturn msg;",
         "outputs": 1,
         "timeout": 0,
         "noerr": 0,
@@ -992,7 +974,8 @@
         "y": 40,
         "wires": [
             [
-                "bf9746bd8aceb0fa"
+                "bf9746bd8aceb0fa",
+                "18b5bda2d3f8e137"
             ]
         ]
     },
@@ -1040,9 +1023,128 @@
         "x": 1180,
         "y": 560,
         "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8d2b52ecf535c428",
+        "type": "debug",
+        "z": "d8fa57a5ef9491a4",
+        "name": "debug 50",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 400,
+        "wires": []
+    },
+    {
+        "id": "fa92abe5c8c3842f",
+        "type": "http in",
+        "z": "d8fa57a5ef9491a4",
+        "name": "",
+        "url": "/DataPer1hour",
+        "method": "get",
+        "upload": false,
+        "swaggerDoc": "",
+        "x": 170,
+        "y": 360,
+        "wires": [
             [
-                "2665b1c5eb29bb56"
+                "52ddd454670468c4"
             ]
+        ]
+    },
+    {
+        "id": "a167f7f4047bd883",
+        "type": "http response",
+        "z": "d8fa57a5ef9491a4",
+        "name": "Bubble.io",
+        "statusCode": "",
+        "headers": {},
+        "x": 1100,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "52ddd454670468c4",
+        "type": "influxdb in",
+        "z": "d8fa57a5ef9491a4",
+        "influxdb": "48659a7502deef5d",
+        "name": "Flux запит",
+        "query": "from(bucket: \"EnergyEfficientSteamBioler\")\n    |> range(start: -1h)\n    |> filter(fn: (r) => r._field == \"InputFEWater\" or r._field == \"InputFESteam\" or r._field == \"InputFEGaz\" or r._field == \"LoadSteamBoiller\" or r._field == \"KKD\" or r._field == \"FullEnergyConsume\" or r._field == \"PowerSteamboiller\")\n    |> group(columns: [\"_field\"])\n    |> aggregateWindow(every: 5m, fn: last, createEmpty: false)",
+        "rawOutput": false,
+        "precision": "",
+        "retentionPolicy": "",
+        "org": "cce5e39002b2a1a2",
+        "x": 370,
+        "y": 360,
+        "wires": [
+            [
+                "71788c03d47a10a6"
+            ]
+        ]
+    },
+    {
+        "id": "c58d1a3299349271",
+        "type": "function",
+        "z": "d8fa57a5ef9491a4",
+        "name": "function 13",
+        "func": "function filterAndMapData(field) {\n    return msg.payload\n        .filter(function (item) {\n            return item._field === field;\n        })\n        .map(function (item) {\n            return {\n                _value: item._value,\n                _field: item._field,\n                _time: item._time,\n                _timeNOW: new Date().toISOString(),\n            };\n        });\n}\n\nfunction calculateStatistics(data) {\n    if (data.length === 0) {\n        return null; // Якщо масив порожній, повертаємо null або інший визначений значення\n    }\n\n    const values = data.map(item => item._value);\n\n    return {\n        average: values.reduce((acc, val) => acc + val, 0) / values.length,\n        min: Math.min(...values),\n        max: Math.max(...values),\n    };\n}\n\n//let inputFEWater = filterAndMapData(\"InputFEWater\")\n\nlet statisticsFEWater = calculateStatistics(filterAndMapData(\"InputFEWater\")).average\n\n\nmsg.payload = {\n    //'FEWater': inputFEWater,\n    'StatisticsFEWater': calculateStatistics(filterAndMapData(\"InputFEWater\")).average//statisticsFEWater,\n};\n\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1290,
+        "y": 1160,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "71788c03d47a10a6",
+        "type": "function",
+        "z": "d8fa57a5ef9491a4",
+        "name": "Обробка масивів та форм. вихідного повідомлення",
+        "func": "//функція пошуку в масивах елементів с полями які містять ключі\nfunction filterAndMapData(field) {\n    return msg.payload\n        .filter(function (item) {\n            return item._field === field;\n        })\n        .map(function (item) {\n            return {\n                _value: item._value,\n                _field: item._field,\n                _time: item._time,\n                _timeNOW: new Date().toISOString(),\n            };\n        });\n}\n//функція обчислення середнього значення , мінімуму та максимуму в об'єктах (масивах)\nfunction calculateStatistics(data) {\n    if (data.length === 0) {\n        return null; // Якщо масив порожній, повертаємо null або інший визначений значення\n    }\n\n    const values = data.map(item => item._value);\n\n    return {\n        average: values.reduce((acc, val) => acc + val, 0) / values.length,\n        min: Math.min(...values),\n        max: Math.max(...values),\n    };\n}\n\nmsg.payload = {\n    'FEWater': filterAndMapData(\"InputFEWater\"),\n    'avgFEWater': calculateStatistics(filterAndMapData(\"InputFEWater\")).average,\n    'minFEWater': calculateStatistics(filterAndMapData(\"InputFEWater\")).min,\n    'maxFEWater': calculateStatistics(filterAndMapData(\"InputFEWater\")).max,\n    'FESteam': filterAndMapData(\"InputFESteam\"),\n    'avgFESteam': calculateStatistics(filterAndMapData(\"InputFESteam\")).average,\n    'minFESteam': calculateStatistics(filterAndMapData(\"InputFESteam\")).min,\n    'maxFESteam': calculateStatistics(filterAndMapData(\"InputFESteam\")).max,\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 720,
+        "y": 360,
+        "wires": [
+            [
+                "a167f7f4047bd883",
+                "8d2b52ecf535c428"
+            ]
+        ]
+    },
+    {
+        "id": "94a3d9249fc20d9a",
+        "type": "function",
+        "z": "d8fa57a5ef9491a4",
+        "name": "Обробка масивів та форм. вихідного повідомлення",
+        "func": "//функція пошуку в масивах елементів с полями які містять ключі\nfunction filterAndMapData(field) {\n    return msg.payload\n        .filter(function (item) {\n            return item._field === field;\n        })\n        .map(function (item) {\n            return {\n                _value: item._value,\n                _field: item._field,\n                _time: item._time,\n                _timeNOW: new Date().toISOString(),\n            };\n        });\n}\nfunction calculateStatistics(data) {\n    if (data.length === 0) {\n        return null; // Якщо масив порожній, повертаємо null або інший визначений значення\n    }\n\n    const values = data.map(item => item._value);\n\n    return {\n        average: values.reduce((acc, val) => acc + val, 0) / values.length,\n        min: Math.min(...values),\n        max: Math.max(...values),\n    };\n}\nlet FEWater = filterAndMapData(\"InputFEWater\")\nlet test = calculateStatistics(\"FEWater\").average\n\nmsg.payload = {\n    'avgFEWater': test //calculateStatistics(\"FEWater\").average,\n    //'minFEWater': calculateStatistics(\"FEWater\").min,\n    //'maxFEWater': calculateStatistics(\"FEWater\").max,\n    //'FESteam': filterAndMapData(\"InputFESteam\"),\n};\n\nreturn msg;\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1420,
+        "y": 1120,
+        "wires": [
+            []
         ]
     }
 ]
